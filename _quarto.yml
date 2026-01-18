@@ -1,0 +1,18 @@
+quarto-required: ">= 1.8"
+
+project:
+
+  type: manuscript
+  title: European digital identity
+
+  output-dir: out
+  lib-dir: out/libs
+
+manuscript:
+  notebooks: []
+
+filters: []
+
+format:
+  pdf: default
+  html: default
