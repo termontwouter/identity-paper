@@ -24,6 +24,8 @@ notes-after-punctuation: true
 link-citations: true
 # link-fields: false
 citeproc: false
+nocite: |
+  @*
 toc: true
 toc-depth: 2
 toc-location: right

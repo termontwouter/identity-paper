@@ -1,18 +1,15 @@
-quarto-required: ">= 1.8"
+quarto-required: ">= 1.8.27"
 
 project:
 
-  type: manuscript
+  type: default
   title: European digital identity
 
   output-dir: out
   lib-dir: out/libs
 
-manuscript:
-  notebooks: []
-
 filters: []
 
 format:
-  pdf: default
-  html: default
+  # pdf: default
+  # html: default
