@@ -28,19 +28,24 @@ author:
     email: beatriz.esteves@ugent.be
     affiliation:
       - ref: knows
-# authorcols: true
 date: 2026-01-19
 date-modified: last-modified
-# funding: ...
 thanks: |
   This research was funded by [SolidLab Vlaanderen](https://solidlab.be/)
   (Flemish Government, EWI and RRF project VV023/10)
-published: A SolidLab white paper
-# code-repo: ...
-# license: ...
+# published: A SolidLab white paper
+# code-repo: <https://github.com/termontwouter/identity-paper>
+license: CC BY
 copyright:
   holder: IDLab (UGent -- imec)
   year: 2026
+citation:
+  type: report
+  issued: 2026-01-20
+  # available-date: 2026-01-20
+  # doi:
+  # url:
+  # pdf-url:
 lang: en-US
 langid: american
 csl: ieee

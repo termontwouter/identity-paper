@@ -29,7 +29,6 @@ format:
   # ieee-pdf:
   #   output-file: ieee.pdf
 
-
 embed-resources: true
 self-contained: true
 self-contained-math: true
@@ -39,10 +38,9 @@ format-links: false
 notebook-links: false
 other-links: false
 
-pdfengine: lualatex
+pdf-engine: xelatex
 latex-tinytex: true
-# latex-output-dir: out
 latex-auto-install: true
 latex-auto-mk: true
 latex-clean: true
-# keep-tex: true
+keep-tex: true
