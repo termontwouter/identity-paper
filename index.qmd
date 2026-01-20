@@ -32,10 +32,10 @@ author:
 date: 2026-01-19
 date-modified: last-modified
 # funding: ...
-thanks: |-
-  The research presented in this paper was funded by
-  [SolidLab Flanders](https://solidlab.be/)
-published: White paper
+thanks: |
+  This research was funded by [SolidLab Vlaanderen](https://solidlab.be/)
+  (Flemish Government, EWI and RRF project VV023/10)
+published: A SolidLab white paper
 # code-repo: ...
 # license: ...
 copyright:
