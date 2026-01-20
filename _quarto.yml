@@ -5,11 +5,44 @@ project:
   type: default
   title: European digital identity
 
-  output-dir: out
-  lib-dir: out/libs
+  # output-dir: out
+  # lib-dir: libs
 
 filters: []
 
 format:
-  # pdf: default
-  # html: default
+  # html:
+  #   output-file: default.html
+  # computo-html:
+  #   output-file: computo.html
+  ieee-html:
+    output-file: index.html
+  # pdf:
+  #   output-file: default.pdf
+  #   documentclass: scrreprt
+  # computo-pdf:
+  #   output-file: computo.pdf
+  hikmah-pdf:
+    output-file: index.pdf
+  # arxiv-pdf:
+  #   output-file: arxiv.pdf
+  # ieee-pdf:
+  #   output-file: ieee.pdf
+
+
+embed-resources: true
+self-contained: true
+self-contained-math: true
+
+code-links: false
+format-links: false
+notebook-links: false
+other-links: false
+
+pdfengine: lualatex
+latex-tinytex: true
+# latex-output-dir: out
+latex-auto-install: true
+latex-auto-mk: true
+latex-clean: true
+# keep-tex: true

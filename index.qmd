@@ -1,21 +1,50 @@
 ---
 title: European digital identity
 subtitle: A missed opportunity?
+short-title: EUDI -- A missed opportunity?
 author:
-  - name: Wouter Termont
+  - id: termont
+    name:
+      given: Wouter
+      family: Termont
     orcid: 0000-0002-2968-1394
     email: wouter.termont@ugent.be
     corresponding: true
+    attributes:
+      corresponding: true
     affiliation:
-      - name: IDLab (Ghent University -- imec)
-        url: https://idlab.ugent.be/
-funding: "The research presented in this paper was funded by SolidLab Flanders (https://solidlab.be/)"
-# license: "CC BY-SA"
-# copyright:
-#   holder: IDLab
-#   year: 2026
+      - name: Ghent University -- imec
+        department: IDLab
+        group: Knowledge On Web Scale
+        url: https://knows.idlab.ugent.be/
+        country: BE
+        id: knows
+  - id: esteves
+    name:
+      given: Esteves
+      family: Beatriz
+    degree: PhD
+    orcid: 0000-0003-0259-7560
+    email: beatriz.esteves@ugent.be
+    affiliation:
+      - ref: knows
+# authorcols: true
+date: 2026-01-19
+date-modified: last-modified
+# funding: ...
+thanks: |-
+  The research presented in this paper was funded by
+  [SolidLab Flanders](https://solidlab.be/)
+published: White paper
+# code-repo: ...
+# license: ...
+copyright:
+  holder: IDLab (UGent -- imec)
+  year: 2026
+lang: en-US
+langid: american
 csl: ieee
-bibliographystyle: ieee.csl # Typst
+bibliographystyle: ieee.csl
 bibliography: references.bib
 reference-section-title: References
 reference-location: section
@@ -31,31 +60,26 @@ toc-depth: 2
 toc-location: right
 number-sections: true
 # shift-heading-level-by: -1
+# abbreviations: abbreviations.yml
 filters:
   - nameref
-  - ./_extensions/bcdavasconcelos/citetools/citeproc.lua # not Typst
+  - ./_extensions/bcdavasconcelos/citetools/citeproc.lua
   - ./_extensions/bcdavasconcelos/citetools/citefield.lua
   - ./_extensions/pandoc-lua-filters/pandoc-quotes.lua
   - abstract-section
-lang: en-US
-langid: american
-# abbreviations: abbreviations.yml
-embed-resources: true
-self-contained: true
-self-contained-math: true
-pdfengine: lualatex
-keep-tex: true
-latex-tinytex: true
-latex-output-dir: .
-latex-auto-install: true
-latex-auto-mk: true
-latex-clean: true
 ---
 
 # Abstract {#abstract}
 
 Recent European efforts around digital identity -- the EUDI regulation and its OpenID architecture -- aim high, but start from a narrow and ill-defined conceptualization of authentication. Based on a broader, more grounded understanding of the term, in we identify several issues in the design of OpenID4VCI and OpenID4VP: insecure practices, static, and subject-bound credential types, and a limited query language restrict their application to classic scenarios of credential exchange -- already supported by existing solutions like OpenID Connect, SIOPv2, OIDC4IDA, and OIDC Claims Aggregation -- barring dynamic, asynchronous, or automated use cases. We also debunk OpenID's 'paradigm-shifting' trust-model, which -- when compared to existing decentralized alternatives -- does not deliver any significant increase in control, privacy, and portability of personal information. Not only the technical choices limit the capabilities of the EUDI framework; also the legislation itself cannot accommodate the promise of self-sovereign identity. In particular, we criticize the introduction of institutionalized trusted lists, and discuss their economical and political risks. Their potential to decline into an exclusory, re-centralized ecosystem endangers the vision of a user-oriented identity management in which individuals are in charge. Instead, the consequences might severely restrict people in what they can do with their personal information, and risk increased linkability and monitoring. In anticipation of revisions to the EUDI regulations, we suggest several technical alternatives that overcome some of the issues with the architecture of OpenID. In particular, OAuth's UMA extension and its A4DS profile, as well as their integration in GNAP, are worth looking into. Future research into uniform query (meta-)languages is needed to address the heterogeneity of attestations and providers.
 
+---
+
+:::{=html}
+
+{{< meta thanks >}}
+
+:::
 
 # Executive summary {#sec-exec .unnumbered .unlisted}
 
@@ -411,8 +435,8 @@ We wrapped up this paper in [@sec-alt] by arguing that the risks related to EUDI
 
 ---
 
-*We conclude that -- while offering a plausible architecture for the use cases which the EUDI regulations seem to allow -- OpenID's architecture doesn't offer much innovation. Both the use cases and the highlighted technical features are achievable with other existing decentralized technologies. Without a thorough analysis of (digital) identity, the regulations and their architecture have restricted themselves to a narrow intuition of what credential exchange could look like -- thereby missing the opportunity to construct a truly uniform model of authentication on the Web. Moreover, with the choice for OpenID's technical framework, the EUDI ecosystem inherits an architectural history of ignoring best practices in software design, internet security, and interoperability -- without any significant innovation to speak for it, neither on a technical level (e.g., semantic expressivity, query languages, automation) nor with respect to the promised increase in control, privacy, and portability of identity information.*
+We conclude that -- while offering a plausible architecture for the use cases which the EUDI regulations seem to allow -- OpenID's architecture doesn't offer much innovation. Both the use cases and the highlighted technical features are achievable with other existing decentralized technologies. Without a thorough analysis of (digital) identity, the regulations and their architecture have restricted themselves to a narrow intuition of what credential exchange could look like -- thereby missing the opportunity to construct a truly uniform model of authentication on the Web. Moreover, with the choice for OpenID's technical framework, the EUDI ecosystem inherits an architectural history of ignoring best practices in software design, internet security, and interoperability -- without any significant innovation to speak for it, neither on a technical level (e.g., semantic expressivity, query languages, automation) nor with respect to the promised increase in control, privacy, and portability of identity information.
 
-*Equivalent solutions already exist today in OIDC extensions on self-issuance, identity assurance, and claims aggregation. Alternatives that aim at a broader interpretation of authentication and identity, can be found in OAuth 2.1 with UMA, or GNAP. In either case, future research is needed to achieve less trivial use cases; in particular into uniform query (meta-)languages.*
+Equivalent solutions already exist today in OIDC extensions on self-issuance, identity assurance, and claims aggregation. Alternatives that aim at a broader interpretation of authentication and identity, can be found in OAuth 2.1 with UMA, or GNAP. In either case, future research is needed to achieve less trivial use cases; in particular into uniform query (meta-)languages.
 
-*The question we are left with, however, is whether a more capable technical framework would be beneficial at all, given the restrictions imposed by the EUDI regulations themselves. The manner in which the regulators have institutionalized EUDI -- and in particular the trusted lists -- risks to create perverse economic and political incentives. Rather than building an inclusive decentralized ecosystem of self-sovereign authentication on the Web, this could lead to a re-centralization of digital identity, and to dangerous vulnerabilities for abuse, such as profiling of citizens' behavior. In its current state, the EUDI ecosystem therefore has everything to become restriction of people's choice and control, rather than an environment in which they feel in charge over their personal information. Authentication then becomes "an entry ticket to a system in which every transaction is clearly assigned to a person" [@schall:eudi].*
+The question we are left with, however, is whether a more capable technical framework would be beneficial at all, given the restrictions imposed by the EUDI regulations themselves. The manner in which the regulators have institutionalized EUDI -- and in particular the trusted lists -- risks to create perverse economic and political incentives. Rather than building an inclusive decentralized ecosystem of self-sovereign authentication on the Web, this could lead to a re-centralization of digital identity, and to dangerous vulnerabilities for abuse, such as profiling of citizens' behavior. In its current state, the EUDI ecosystem therefore has everything to become restriction of people's choice and control, rather than an environment in which they feel in charge over their personal information. Authentication then becomes "an entry ticket to a system in which every transaction is clearly assigned to a person" [@schall:eudi].
