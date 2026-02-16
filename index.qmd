@@ -220,9 +220,7 @@ When we take all these use cases into account, *the subject becomes of less and 
 
 # OpenID's architecture for EUDI {#sec-arch}
 
-Now, why is all of the above more than nitpicky semantic filibustering?
-
-What is the impact of this realization that identity and credentials can be *any data*? How does it affect IAM approaches in Data Spaces, and in particular the EUDI framework and its OpenID architecture? We start with a brief technical refresher.
+Now, why is all of the above more relevant in evaluating IAM approaches in Data Spaces? What is the impact of the realization that identity and credentials can be *any data*? In particular, how does it affect the EUDI framework and its OpenID architecture? We start with a brief technical refresher.
 
 The basis of the entire OpenID ecosystem is the OAuth 2.0 Authorization Framework [@ietf:rfc6749], which moves the responsibility for access control from the *resource server* (RS) to a separate *authorization server* (AS). The latter provides *clients* (applications) of the former with uniform **access tokens** that enable access to protected resources, in exchange for a variety of **grants**: credentials representing the resource owner's approval of the requested access (e.g., client-specific credentials, interactively obtained codes). This exchange happens at the (singular) **token endpoint**, where the client *authenticates* itself, presents its grant, and requests a certain resource scope [@ietf:rfc6749].
 
