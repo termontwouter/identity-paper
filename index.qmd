@@ -1,7 +1,6 @@
 ---
-title: European Digital Identity
-subtitle: A missed opportunity?
-# An analysis of the European Digital Identity (EUDI) authentication architecture
+title: OpenID for European Digital Identity
+subtitle: An architectural analysis of user-centric identity management in the EU
 short-title: EUDI -- A missed opportunity?
 author:
   - id: termont
