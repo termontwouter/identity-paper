@@ -1,7 +1,7 @@
 ---
 title: OpenID for European Digital Identity
 subtitle: An architectural analysis of user-centric identity management in the EU
-short-title: EUDI -- A missed opportunity?
+short-title: "OpenID for EUDI: An architectural analysis"
 author:
   - id: termont
     name:
@@ -21,8 +21,8 @@ author:
         id: knows
   - id: esteves
     name:
-      given: Esteves
-      family: Beatriz
+      given: Beatriz
+      family: Esteves
     degree: PhD
     orcid: 0000-0003-0259-7560
     email: beatriz.esteves@ugent.be
@@ -33,21 +33,34 @@ date-modified: last-modified
 thanks: |
   This research was funded by [SolidLab Vlaanderen](https://solidlab.be/)
   (Flemish Government, EWI and RRF project VV023/10)
-# published: A SolidLab white paper
-# code-repo: <https://github.com/termontwouter/identity-paper>
+funding: |
+  This research was funded by [SolidLab Vlaanderen](https://solidlab.be/)
+  (Flemish Government, EWI and RRF project VV023/10)
 license: CC BY
 copyright:
   holder: IDLab (UGent -- imec)
   year: 2026
 citation:
   type: report
-  issued: 2026-01-20
-  # available-date: 2026-01-20
-  # doi:
-  # url:
-  # pdf-url:
-lang: en-US
+  title: "OpenID for European Digital Identity: An architectural analysis of user-centric identity management in the EU"
+  issued: 2026-02-17
+  original-date: 2026-01-20
+  submitted: 2026-01-19
+  status: white paper
+  eissn: 2331-8422
+  issn: 2331-8422
+  archive: arXiv
+  archive_collection: cs.CR
+  printing-number: "2601.14503"
+  call-number: "2601.14503"
+  locator: "2601.14503"
+  doi: 	10.48550/arXiv.2601.14503
+  url: https://arxiv.org/abs/2601.14503
+  pdf-url: https://arxiv.org/pdf/2601.14503
+topics: [Identity, Digital Identity, European Digital Identity, Identity and Access Management, IAM Architecture, Identity frameworks, Protocol design and , Technical standards, Standardization politics, Decentralized Identity, User-centric identity managment, Digital Trust, Self-Sovereign Identity, Cryptography and Security (cs.CR), Computers and Society (cs.CY), Networking and Internet Architecture (cs.NI)]
+keywords: [European Digital Identity, EUDI, eIDAS, Europe, EU, OpenID, OpenID4VCI, OpenID4VP, OpenID Connect, decentralized identifiers, identifiers, identity, digital identity, digital wallets, wallets, vaults, credentials, verifiable credentials, verifiable presentations, VC, VP, authorization, authentication, verification, authenticity, integrity, origin, trust, trust lists, identity management, IAM, interoperability, control, user, user-oriented, user-centric, self-sovereign identity, SSI, standardization, architecture, OAuth, UMA, GNAP, A4DS, Authorization for Data Spaces, Data Spaces, dataspaces]
 langid: american
+lang: en-US
 csl: ieee
 bibliographystyle: ieee.csl
 bibliography: references.bib
@@ -56,7 +69,6 @@ reference-location: section
 citation-location: document
 notes-after-punctuation: true
 link-citations: true
-# link-fields: false
 citeproc: false
 nocite: |
   @*
@@ -64,8 +76,6 @@ toc: true
 toc-depth: 2
 toc-location: right
 number-sections: true
-# shift-heading-level-by: -1
-# abbreviations: abbreviations.yml
 filters:
   - nameref
   - ./_extensions/bcdavasconcelos/citetools/citeproc.lua
@@ -80,13 +90,11 @@ Recent European efforts around digital identity -- the EUDI regulation and its O
 Grounded in this definition, we identify several issues in the design of OpenID4VCI and OpenID4VP: (1) available credentials are limited to static, preset configurations, flexible in packaging format but not in semantic content; (2) querying claims in credentials happens through a custom, format-specific language; and (3) credentials can only be about a (single) principal user of a service, who must (synchronously) interact for each transaction. These problems limit the kind of credentials that can be issued, the way specific information can be requested, and the capabilities for (dynamic, asynchronous) automation of these transactions. Overall, this restricts the application of these specifications to classic scenarios involving a small number of well-known authoritative documents over which a handful of questions is repeatedly formulated. Moreover, this limited set of use cases is already fully supported by existing solutions like OpenID Connect, SIOPv2, OIDC4IDA, and OIDC Claims Aggregation, which makes us wonder about why the entirely new OpenID4VCI and OpenID4VP specifications are needed at all. To answer this, we look into the unique properties OpenID proclaims these specifications' trust model offers: an increase in control, privacy, and portability of personal information. For each of these measures, however, we conclude that the offered functionality is practically identical to the aforementioned alternatives.
 Not only the technical choices limit the capabilities of the EUDI framework; also the legislation itself cannot accommodate the promise of self-sovereign identity. In particular, we criticize the introduction of institutionalized trusted lists, and discuss their economical and political risks. Their potential to decline into an exclusory, re-centralized ecosystem endangers the vision of a user-oriented identity management in which individuals are in charge. Instead, the consequences might severely restrict people in what they can do with their personal information, and risk increased linkability and monitoring. In anticipation of revisions to the EUDI regulations, we suggest several technical alternatives that overcome some of the issues with the architecture of OpenID. In particular, OAuth's UMA extension and its A4DS profile, as well as their integration in GNAP, are worth looking into. Future research into uniform query (meta-)languages is needed to address the heterogeneity of attestations and providers.
 
+{{< pagebreak >}}
+
 ---
 
-:::{=html}
-
-{{< meta thanks >}}
-
-:::
+{{< pagebreak >}}
 
 # Executive summary {#sec-exec .unnumbered .unlisted}
 
@@ -112,6 +120,8 @@ In anticipation of regulatory changes, we urge to research alternatives that aim
 
 ---
 
+{{< pagebreak >}}
+
 # Introduction {-}
 
 The concept of **identity** plays a big role in the fields of *Data Spaces*[^fn-dataspaces] (DS) and *Identity and Access Management* (IAM): from the personal information of an individual human being, over the information collected about legal entities, to the processing of any of the former, either through traditional methods or involving artificial intelligence.[^fn-terms] For being so important, however, definitions of the term 'identity' are surprisingly rare in legal and technical documents related to these fields.
@@ -128,12 +138,6 @@ Before offering a number of alternatives to OpenID's architecture in [@sec-alt],
 
 
 # The identity of identity {#sec-identity}
-
-The description tone too informal.
-Clarify in what scope you selected regulations/standards/....
-Are these cherry-picked examples or a reproducible set of evidence?
-
- I started from eIDAS/EUDI plus its Architectural Reference (ARF) involving OpenID4VCI/VP. From there I included: W3C’s VC & DID because they’re used within the ARF; Other related W3C and OpenID specifications that might have something to say about identity; and SAML, because it is the historical forefather of these specs. Being disappointed in the results, I turned to meta-standards of well-known organisations mentioning “Identity” in the title, and to glossaries they refered to. Like I then already made explicit, I discovered the very detailed glossaries by Wheeler & Wheeler, and then went through all of its sources and mentioned those that contained relevant definitions.
 
 Looking at the *European Digital Identity* (EUDI) regulation [@eu:eudi]{.title-short.} [@eu:eudi], as well as its predecessor [@eu:eidas]{.title-short.} (eIDAS) [@eu:eidas], and its [@eu:arf]{.title-short.} (ARF) [@eu:arf;@eu:toolbox], it is unclear precisely what is meant by the term 'identity'; neither of them provides an explicit definition. Likewise for many of the technical standards -- published by major Standards Development Organizations (SDOs)[^fn-institutes] -- that play a major role in the framework's architecture: W3C's [@w3c:did]{.title-short.} (DID) [@w3c:did], [@w3c:vc]{.title-short.} (VC) [@w3c:vc], [@w3c:credapi]{.title-short}, and [@w3c:fedcm]{.title-short.} (FedCM) [@w3c:fedcm]; OpenID's [@openid:vci]{.title-short.} (OpenID4VCI) [@openid:vci], and [@openid:vp]{.title-short.} (OpenID4VP) [@openid:vp]. Older specifications, on which some of these standards are based, merely contain brief descriptions: "\[a] set of attributes related to an entity," in [@openid:connect]{.title-short.} (OIDC) [@openid:connect]; and "\[the] essence of an entity \[...] described by one's characteristics," in OASIS's [@oasis:glossary]{.title-short.} (SAML) [@oasis:glossary], referencing the Merriam-Webster dictionary. These seem far from workable definitions for core specifications around this topic.
 
@@ -410,7 +414,6 @@ To achieve this, we argue that solutions should be aimed at a broad interpretati
 Based on this strong foundation, **W3C's models** of *verifiable credentials and presentations* [@w3c:vc] -- also supported by OpenID -- offer the most potential for aligning the wide variety of electronic attestations of attributes. As we pointed out in [@sec-trust], they are not inherently more expressive or secure than classic OIDC tokens, but they achieve those features in a semantically richer, more interoperable, and extensible manner. On the other hand, while W3C VCs *can handle partial identity* -- e.g., role-based, pseudo [@idlab:pseudo] -- they are still targeted to a subject, and can therefore *cannot express certificates* in the broader sense. A compatible model for such general 'attestation documents' therefore remains a crucial topic for future research.
 
 Throughout [@sec-arch], we already mentioned several other OpenID specifications that together are functionally equivalent to OpenID4VCI and OpenID4VP. Based on the well-established OIDC [@openid:connect], SIOPv2 aligns credentials with self-issued presentations [@openid:siop], OIDC4IDA adds a levels of assurance model [@openid:ida;@openid:idaschema;@openid:idareg], and OIDC Claims Aggregation can substitute for wallet-like behavior [@openid:aggregation]. Contrary to OpenID4VCI and OpenID4VP, the latter specifications provide strong extensibility and interoperability -- both between themselves as with external specifications -- while relying on existing standards where possible, rather than duplicating a number of slightly customized -- i.e., functionally equivalent yet incompatible -- models.
-
 
 However, we also pointed out several problems with the OpenID ecosystem in general, which should be addressed in any possible alternative. In particular, attention needs to be payed to best practices in internet security and software design -- such as the separation of orthogonal concerns. Ideally, an alternative solution would therefore be based directly on OAuth 2.1 [@ietf:oauth21]. This would lift OpenID's restriction to a single endpoint, and instead allow the immense variety of attestations to be exchanged via any kind of interface: classic RESTful APIs, database queries, web streams etc.
 
