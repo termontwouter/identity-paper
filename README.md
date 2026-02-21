@@ -1,5 +1,5 @@
 
-# White paper 'European digital identity: a missed opportunity?'
+# OpenID for European Digital Identity: An architectural analysis of user-centric identity management
 
 Definitions of identity, a concept playing a big role in the fields of Data Spaces (DS) and Identity and Access Management (IAM), are surprisingly rare in legal and technical documents related to these fields. In this paper, we look into the impact on the recent developments around the European Digital Identity (EUDI) framework, and its technical implementation through OpenID specifications.
 
