@@ -1,6 +1,6 @@
 ---
 title: OpenID for European Digital Identity
-subtitle: An architectural analysis of user-centric identity management in the EU
+subtitle: An architectural analysis of user-centric identity management
 short-title: "OpenID for EUDI: An architectural analysis"
 author:
   - id: termont
@@ -31,11 +31,11 @@ author:
 date: 2026-01-19
 date-modified: last-modified
 thanks: |
-  This research was funded by [SolidLab Vlaanderen](https://solidlab.be/)
-  (Flemish Government, EWI and RRF project VV023/10)
+  Research funded by [SolidLab Vlaanderen](https://solidlab.be/)
+  (Flemish Gov., EWI \& RRF project VV023/10)
 funding: |
-  This research was funded by [SolidLab Vlaanderen](https://solidlab.be/)
-  (Flemish Government, EWI and RRF project VV023/10)
+  Research funded by [SolidLab Vlaanderen](https://solidlab.be/)
+  (Flemish Gov., EWI \& RRF project VV023/10)
 license: CC BY
 copyright:
   holder: IDLab (UGent -- imec)
@@ -57,8 +57,8 @@ citation:
   doi: 	10.48550/arXiv.2601.14503
   url: https://arxiv.org/abs/2601.14503
   pdf-url: https://arxiv.org/pdf/2601.14503
-topics: [Identity, Digital Identity, European Digital Identity, Identity and Access Management, IAM Architecture, Identity frameworks, Protocol design and , Technical standards, Standardization politics, Decentralized Identity, User-centric identity managment, Digital Trust, Self-Sovereign Identity, Cryptography and Security (cs.CR), Computers and Society (cs.CY), Networking and Internet Architecture (cs.NI)]
-keywords: [European Digital Identity, EUDI, eIDAS, Europe, EU, OpenID, OpenID4VCI, OpenID4VP, OpenID Connect, decentralized identifiers, identifiers, identity, digital identity, digital wallets, wallets, vaults, credentials, verifiable credentials, verifiable presentations, VC, VP, authorization, authentication, verification, authenticity, integrity, origin, trust, trust lists, identity management, IAM, interoperability, control, user, user-oriented, user-centric, self-sovereign identity, SSI, standardization, architecture, OAuth, UMA, GNAP, A4DS, Authorization for Data Spaces, Data Spaces, dataspaces]
+# topics: [Identity, Digital Identity, European Digital Identity, Identity and Access Management, IAM Architecture, Identity frameworks, Protocol design and , Technical standards, Standardization politics, Decentralized Identity, User-centric identity managment, Digital Trust, Self-Sovereign Identity, Cryptography and Security (cs.CR), Computers and Society (cs.CY), Networking and Internet Architecture (cs.NI)]
+# keywords: [European Digital Identity, EUDI, eIDAS, Europe, EU, OpenID, OpenID4VCI, OpenID4VP, OpenID Connect, decentralized identifiers, identifiers, identity, digital identity, digital wallets, wallets, vaults, credentials, verifiable credentials, verifiable presentations, VC, VP, authorization, authentication, verification, authenticity, integrity, origin, trust, trust lists, identity management, IAM, interoperability, control, user, user-oriented, user-centric, self-sovereign identity, SSI, standardization, architecture, OAuth, UMA, GNAP, A4DS, Authorization for Data Spaces, Data Spaces, dataspaces]
 langid: american
 lang: en-US
 csl: ieee
@@ -87,14 +87,9 @@ filters:
 # Abstract {#abstract}
 
 Recent European efforts around digital identity -- the EUDI regulation and its OpenID architecture -- aim high to provide an EU-wide authentication framework. However, its current technical and legislative architecture are based on a limited conceptualization of authentication. None of the legal and technical texts involved explicitly define the central term 'identity'; and their implicit model of the concept does not go beyond a digitalization of identity cards and similar documents. Based on a number of less directly related (meta-)standards, we propose an broader, explicit understanding of the term.
-Grounded in this definition, we identify several issues in the design of OpenID4VCI and OpenID4VP: (1) available credentials are limited to static, preset configurations, flexible in packaging format but not in semantic content; (2) querying claims in credentials happens through a custom, format-specific language; and (3) credentials can only be about a (single) principal user of a service, who must (synchronously) interact for each transaction. These problems limit the kind of credentials that can be issued, the way specific information can be requested, and the capabilities for (dynamic, asynchronous) automation of these transactions. Overall, this restricts the application of these specifications to classic scenarios involving a small number of well-known authoritative documents over which a handful of questions is repeatedly formulated. Moreover, this limited set of use cases is already fully supported by existing solutions like OpenID Connect, SIOPv2, OIDC4IDA, and OIDC Claims Aggregation, which makes us wonder about why the entirely new OpenID4VCI and OpenID4VP specifications are needed at all. To answer this, we look into the unique properties OpenID proclaims these specifications' trust model offers: an increase in control, privacy, and portability of personal information. For each of these measures, however, we conclude that the offered functionality is practically identical to the aforementioned alternatives.
+Grounded in this definition, we identify several issues in the design of OpenID4VCI and OpenID4VP: (1) available credentials are limited to static, preset configurations, flexible in packaging format but not in semantic content; (2) querying claims in credentials happens through a custom, format-specific language; and (3) credentials can only be about a (single) principal user of a service, who must (synchronously) interact for each transaction. These problems limit the kind of credentials that can be issued, the way specific information can be requested, and the capabilities for (dynamic, asynchronous) automation of these transactions. Overall, this restricts the application of these specifications to classic scenarios involving a small number of well-known authoritative documents over which a handful of questions is repeatedly formulated. Moreover, this limited set of use cases is already fully supported by existing solutions (e.g., the OpenID Connect ecosystem), which puts the need for the new OpenID4VCI and OpenID4VP specifications into question. To discover other benefits, we look into the unique properties OpenID proclaims these specifications' trust model offers: an increase in control, privacy, and portability of personal information. For each of these measures, however, we conclude that the offered functionality is practically identical to the aforementioned alternatives.
 Not only the technical choices limit the capabilities of the EUDI framework; also the legislation itself cannot accommodate the promise of self-sovereign identity. In particular, we criticize the introduction of institutionalized trusted lists, and discuss their economical and political risks. Their potential to decline into an exclusory, re-centralized ecosystem endangers the vision of a user-oriented identity management in which individuals are in charge. Instead, the consequences might severely restrict people in what they can do with their personal information, and risk increased linkability and monitoring. In anticipation of revisions to the EUDI regulations, we suggest several technical alternatives that overcome some of the issues with the architecture of OpenID. In particular, OAuth's UMA extension and its A4DS profile, as well as their integration in GNAP, are worth looking into. Future research into uniform query (meta-)languages is needed to address the heterogeneity of attestations and providers.
 
-{{< pagebreak >}}
-
----
-
-{{< pagebreak >}}
 
 # Executive summary {#sec-exec .unnumbered .unlisted}
 
@@ -122,6 +117,7 @@ In anticipation of regulatory changes, we urge to research alternatives that aim
 
 {{< pagebreak >}}
 
+
 # Introduction {-}
 
 The concept of **identity** plays a big role in the fields of *Data Spaces*[^fn-dataspaces] (DS) and *Identity and Access Management* (IAM): from the personal information of an individual human being, over the information collected about legal entities, to the processing of any of the former, either through traditional methods or involving artificial intelligence.[^fn-terms] For being so important, however, definitions of the term 'identity' are surprisingly rare in legal and technical documents related to these fields.
@@ -147,7 +143,7 @@ Note that the aim of this paper is not to find or attempt a universal, one-size-
 
 We therefore turn to meta-standards and glossaries of those same SDOs. Neither W3C's [@w3c:glossary]{.title-short.} [@w3c:glossary], nor IETF's [@ietf:rfc1983]{.number.} ([@ietf:rfc1983]{.title-short.}) [@ietf:rfc1983], or its [@ietf:rfc7642]{.number.} ([@ietf:rfc7642]{.title-short.}) [@ietf:rfc7642], contain a definition of 'identity'. On the other hand, both IETF's [@ietf:rfc4949]{.number.} ([@ietf:rfc4949]{.title-short.}) [@ietf:rfc4949], and [@ietf:rfc6973]{.number.} ([@ietf:rfc6973]{.title-short.}) [@ietf:rfc6973], as well as OASIS's [@oasis:identity]{.title-short.} [@oasis:identity], provide a somewhat detailed definition of the term. Looking to expand our field of search, we find several -- somewhat outdated -- documents giving an overview of the state of the art (at the time), including the references mentioned above: a 'living paper' regularly updated at the Technical University of Delft [@freehaven:terms], the reports of the *Future of Identity in the Information Society* (FIDIS) project [@fidis:journal;@fidis:book],[^fn-fidis] and the extensive [@wheeler:security]{.title.} [@wheeler:security] and [@wheeler:privacy]{.title.} [@wheeler:privacy] of Wheeler \& Wheeler. In their bibliographies, we discover a number of additional sources that provide much more elaborate definitions of 'identity' -- and numerous related terms -- predominantly published by U.S. institutions: [@oecd:govdi]{.number.} [@oecd:govdi], [@iso:24760]{.number.} ([@iso:24760]{.title-short.}) [@iso:24760], [@iso:24765]{.number.} ([@iso:24765]{.title-short.}) [@iso:24765], [@nist:sp800-63]{.number.} ([@nist:sp800-63]{.title-short.}) [@nist:sp800-63], [@nist:sp800-103]{.number.} ([@nist:sp800-103]{.title-short.}) [@nist:sp800-103], [@nist:fips200]{.number.} ([@nist:fips200]{.title-short.}) [@nist:fips200], [@nist:fips201]{.number.} ([@nist:fips201]{.title-short.}) [@nist:fips201], and [@cnss:i4009]{.number.} ([@cnss:i4009]{.title-short.}) [@cnss:i4009].^[Only while searching for these additional sources, we stumbled upon two white papers by OpenID, written to inform government officials, which contain a few of the same references [@openid:govcreds;@openid:govdi].] We discuss these in the following section.
 
-  [^fn-fidis]: The FIDIS *network of excellence* (NOE) was a *European Research Area* (ERA) research consortium, funded by the European Commission's *6th Framework Programme for Research and Technological Development* (FP6), with the aim to consolidate concepts and terminology related to identity, in order to foster interoperability of technologies and services towards a *European Information Society* (EIS). Its conclusions were concretely taken up by, amongst others, its spiritual successor: the FP7 *specific targeted research project* (STREP) *Privacy and Identity Management for Community Services* (**PICOS**), focused on trust and security in information and communication technologies.
+  [^fn-fidis]: The FIDIS *network of excellence* (NOE) was a *European Research Area* (ERA) research consortium, funded by the European Commission's 6th Framework Programme for Research and Technological Development (FP6), with the aim to consolidate concepts and terminology related to identity, in order to foster interoperability of technologies and services towards a *European Information Society* (EIS). Its conclusions were concretely taken up by, amongst others, its spiritual successor: the FP7 Specific Rargeted Research Project (STREP) *Privacy and Identity Management for Community Services* (PICOS), focused on trust and security in information and communication technologies.
 
 
 ## Characteristics of (id)entities {#sec-char}
