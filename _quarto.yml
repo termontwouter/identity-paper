@@ -15,7 +15,7 @@ self-contained: true
 self-contained-math: true
 
 code-links: false
-format-links: false
+format-links: true
 notebook-links: false
 other-links: false
 
