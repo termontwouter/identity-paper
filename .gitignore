@@ -1,6 +1,12 @@
 /.quarto/
 /*_files/
 **/*.quarto_ipynb
+
 *.tex
+*.aux
+*.out
+*.log
+*.toc
+
 *.html
 *.pdf

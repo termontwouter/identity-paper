@@ -63,7 +63,7 @@ langid: american
 lang: en-US
 csl: ieee
 bibliographystyle: ieee.csl
-bibliography: references.bib
+bibliography: references.yml
 reference-section-title: References
 reference-location: section
 citation-location: document
