@@ -3,7 +3,6 @@
   accessed: 2025-12-6
   author:
     - literal: Auth0 Platform
-  citation-key: auth0:glossary
   publisher: Okta
   title: Identity glossary
   title-short: Auth0 identity glossary
@@ -14,9 +13,10 @@
   accessed: 2025-12-6
   author:
     - literal: Amazon Web Services
-  citation-key: aws:iam
   publisher: Amazon
-  title: Identity & access management. User guide
+  title:
+    main: Identity & access management
+    sub: User guide
   title-short: AWS IAM user guide
   type: webpage
   URL: https://docs.aws.amazon.com/IAM/latest/UserGuide
@@ -31,7 +31,6 @@
       given: Arvind
     - family: Toubiana
       given: Vincent
-  citation-key: barocas:decentralized
   collection-title: INC reader
   container-title: Unlike us reader
   editor:
@@ -46,13 +45,12 @@
   issued: 2013
   publisher: Institute of Network Cultures
   publisher-place: Amsterdam, NL
-  title: >-
-    Unlikely outcomes?. A distributed discussion on the prospects and promise of
-    decentralized personal data architectures
+  title:
+    main: Unlikely outcomes?
+    sub: A distributed discussion on the prospects and promise of decentralized personal data architectures
   title-short: Unlikely outcomes
   type: paper-conference
-  URL: >-
-    https://networkcultures.org/blog/publication/unlike-us-reader-social-media-monopolies-and-their-alternatives/
+  URL: https://networkcultures.org/blog/publication/unlike-us-reader-social-media-monopolies-and-their-alternatives/
 
 - id: ccadb:qwacs
   author:
@@ -62,21 +60,18 @@
     - literal: Mozilla
     - literal: Opera
     - literal: Vivaldi
-  citation-key: ccadb:qwacs
   issued: 2020-7-13
-  publisher: Common CA Database / The Linux Foundation
-  title: >-
-    Qualified website authentication certificates. Interoperability challenges
-    in binding to connections instead of domains
+  publisher: Common CA Database (The Linux Foundation)
+  title:
+    main: Qualified website authentication certificates
+    sub: Interoperability challenges in binding to connections instead of domains
   title-short: QWACs interoperability challenges
   type: webpage
-  URL: >-
-    https://www.ccadb.org/documents/Qualified_Website_Authentication_Certificates_Interoperability.pdf
+  URL: https://www.ccadb.org/documents/Qualified_Website_Authentication_Certificates_Interoperability.pdf
 
 - id: cepis:eudi
   author:
     - literal: CEPIS Legal and Security Issues (LSI) Expert Group
-  citation-key: cepis:eudi
   collection-title: Cybersecurity
   issued: 2023-11-28
   publisher: Council of European Professional Informatics Societies (CEPIS)
@@ -84,13 +79,11 @@
   title: CEPIS suggests improvements on amendment to eIDAS regulation
   title-short: CEPIS improvements on eIDAS amendment
   type: webpage
-  URL: >-
-    https://cepis.org/cepis-suggests-improvements-on-amendment-to-eidas-regulation/
+  URL: https://cepis.org/cepis-suggests-improvements-on-amendment-to-eidas-regulation/
 
 - id: cnss:i4009
   author:
     - literal: Committee on National Security Systems
-  citation-key: cnss:i4009
   genre: CNSS Instructions
   issued: 2015
   number: CNSSI No. 4009
@@ -104,7 +97,6 @@
   author:
     - family: Curry
       given: Edward
-  citation-key: curry:datapaces
   container-title: Real-time linked dataspaces
   DOI: 10.1007/978-3-030-29665-0_3
   ISBN: 978-3-030-29665-0
@@ -112,20 +104,20 @@
   page: 45–62
   publisher: Springer International Publishing
   publisher-place: Cham, CH
-  title: Dataspaces. Fundamentals, principles, and techniques
+  title:
+    main: Dataspaces
+    sub: Fundamentals, principles, and techniques
   type: chapter
   URL: https://doi.org/10.1007/978-3-030-29665-0_3
 
 - id: eff:letter
-  citation-key: eff:letter
   contributor:
     - literal: Electronic Frontier Foundation
   issued: 2022-3-3
   publisher: Electronic Frontier Foundation (EFF)
   publisher-place: San Fransisco, CA
-  title: >-
-    eIDAS letter 2022. Global website security ecosystem at risk from EU Digital
-    Identity framework's new website authentication provisions
+  title:
+    main: eIDAS letter 2022. Global website security ecosystem at risk from EU Digital Identity framework's new website authentication provisions
   title-short: EFF eIDAS letter
   type: webpage
   URL: https://www.eff.org/document/eidas-letter-2022
@@ -133,7 +125,6 @@
 - id: enisa:qwacs
   author:
     - literal: European Union Agency for Cybersecurity
-  citation-key: enisa:qwacs
   collection-title: Digital identity and data protection
   DOI: 10.2824/464966
   editor:
@@ -146,18 +137,16 @@
   original-date: 2015-12
   publisher: European Union Agency for Network and Information Security
   publisher-place: Attiki, GR
-  title: >-
-    Qualified website authentication certificates. Promoting consumer trust in
-    the website authentication market
+  title:
+    main: Qualified website authentication certificates
+    sub: Promoting consumer trust in the website authentication market
   title-short: Qualified Website Authentication Certificates
   type: report
-  URL: >-
-    https://www.enisa.europa.eu/publications/qualified-website-authentication-certificates
+  URL: https://www.enisa.europa.eu/publications/qualified-website-authentication-certificates
 
 - id: enisa:ssi
   author:
     - literal: European Union Agency for Cybersecurity
-  citation-key: enisa:ssi
   collection-title: Digital identity and data protection
   DOI: 10.2824/8646
   editor:
@@ -174,22 +163,20 @@
   original-date: 202-1
   publisher: Publications Office of the European Union
   publisher-place: Attiki, GR
-  title: Digital identity. Leveraging the SSI concept to build trust
+  title:
+    main: Digital identity
+    sub: Leveraging the SSI concept to build trust
   title-short: Digital identity
   type: report
-  URL: >-
-    https://op.europa.eu/en/publication-detail/-/publication/41a50fed-dc9f-11ec-a534-01aa75ed71a1/language-en#
+  URL: https://op.europa.eu/en/publication-detail/-/publication/41a50fed-dc9f-11ec-a534-01aa75ed71a1/language-en#
 
 - id: essif:project
   accessed: 2025-12-6
   author:
     - literal: The European Self-Sovereign Identity Framework Lab
-  citation-key: essif:project
   issued: 2024-4-7
-  publisher: >-
-    European Commission (Horizon 2020 Research and Innovation Programme) / Next
-    Generation Internet (NGI) Initiative
-  title: The EU project `ESSIF-Lab'
+  publisher: ESSIF-Lab
+  title: The EU project 'ESSIF-Lab'
   title-short: The ESSIF-Lab project
   type: webpage
   URL: https://essif-lab.github.io/framework/docs/essifLab-project
@@ -197,8 +184,7 @@
 - id: etsi:trustlists
   author:
     - literal: European Telecommunications Standards Institute (ETSI)
-  citation-key: etsi:trustlists
-  collection-title: <span class="nocase">Electronic Signatures and Infrastructures</span> (ESI)
+  collection-title: Electronic Signatures and Infrastructures (ESI)
   genre: Technical Specification
   issued: 2025-8
   number: ETSI TS 119 612
@@ -207,20 +193,18 @@
   publisher-place: Valbonne, FR
   title: Trusted lists
   type: report
-  URL: >-
-    https://www.etsi.org/deliver/etsi_ts/119600_119699/119612/02.04.01_60/ts_119612v020401p.pdf
+  URL: https://www.etsi.org/deliver/etsi_ts/119600_119699/119612/02.04.01_60/ts_119612v020401p.pdf
   version: 2.4.1
 
 - id: eu:arf
   author:
     - literal: European Digital Identity Cooperation Group
-  citation-key: eu:arf
   issued: 2025-9-15
   original-date: 2023-2-13
-  publisher: >-
-    Directorate-General for Communications Networks, Content and Technology /
-    European Commission
-  title: European digital identity wallet. Architecture and reference framework
+  publisher: Directorate-General for Communications Networks, Content and Technology (European Commission)
+  title:
+    main: European digital identity wallet
+    sub: Architecture and reference framework
   title-short: Architecture and reference framework
   type: webpage
   URL: https://eudi.dev/2.5.0/architecture-and-reference-framework-main/
@@ -229,18 +213,11 @@
 - id: eu:assurance
   author:
     - literal: European Commission
-  citation-key: eu:assurance
   collection-title: Legislation
   issued: 2015-9-8
   number: 32015R1502
   publisher: Publications Office of the European Union
-  title: >-
-    Commission Implementing Regulation (EU) 2015/1502 of 8 September 2015 on
-    setting out minimum technical specifications and procedures for assurance
-    levels for electronic identification means pursuant to Article 8(3) of
-    Regulation (EU) No 910/2014 of the European Parliament and of the Council on
-    electronic identification and trust services for electronic transactions in
-    the internal market
+  title: Commission Implementing Regulation (EU) 2015/1502 of 8 September 2015 on setting out minimum technical specifications and procedures for assurance levels for electronic identification means pursuant to Article 8(3) of Regulation (EU) No 910/2014 of the European Parliament and of the Council on electronic identification and trust services for electronic transactions in the internal market
   title-short: Implementing Regulation 2015/1502
   type: Implementing Regulation (EU)
   URL: http://data.europa.eu/eli/reg_impl/2015/1502/oj
@@ -249,17 +226,11 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:attestations
   collection-title: Legislation
   issued: 2024-12-4
   number: 32024R2977
   publisher: Publications Office of the European Union
-  title: >-
-    Commission Implementing Regulation (EU) 2024/2977 of 28 November 2024 laying
-    down rules for the application of Regulation (EU) No 910/2014 of the
-    European Parliament and of the Council as regards person identification data
-    and electronic attestations of attributes issued to European Digital
-    Identity Wallets
+  title: Commission Implementing Regulation (EU) 2024/2977 of 28 November 2024 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards person identification data and electronic attestations of attributes issued to European Digital Identity Wallets
   title-short: Implementing Regulation 2024/2977
   type: Implementing Regulation (EU)
   URL: http://data.europa.eu/eli/reg_impl/2024/2977/oj
@@ -268,16 +239,11 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:breaches
   collection-title: Legislation
   issued: 2025-5-7
   number: 32025R0847
   publisher: Publications Office of the European Union
-  title: >-
-    Commission Implementing Regulation (EU) 2025/847 of 6 May 2025 laying down
-    rules for the application of Regulation (EU) No 910/2014 of the European
-    Parliament and of the Council as regards reactions to security breaches of
-    European Digital Identity Wallets
+  title: Commission Implementing Regulation (EU) 2025/847 of 6 May 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards reactions to security breaches of European Digital Identity Wallets
   title-short: Implementing Regulation 2025/847
   type: Implementing Regulation (EU)
   URL: http://data.europa.eu/eli/reg_impl/2025/847/oj
@@ -286,34 +252,24 @@
   author:
     - family: Alamillo Domingo
       given: Ignacio
-  citation-key: eu:bridge
   issued: 2020-4
-  publisher: >-
-    European Commission / European Commission (Horizon 2020 Research and
-    Innovation Programme) / ISA2: Interoperability Solutions for Public
-    Administrations, Businesses, and Citizens
-  title: >-
-    SSI eIDAS Legal Report. How eIDAS can legally support digital identity and
-    trustworthy DLT-based transactions in the Digital Single Market
+  publisher: European Commission
+  title:
+    main: SSI eIDAS Legal Report
+    sub: How eIDAS can legally support digital identity and trustworthy DLT-based transactions in the Digital Single Market
   title-short: SSI eIDAS Legal Report
   type: report
-  URL: >-
-    https://interoperable-europe.ec.europa.eu/sites/default/files/document/2020-04/SSI_eIDAS_legal_report_final_0.pdf
+  URL: https://interoperable-europe.ec.europa.eu/sites/default/files/document/2020-04/SSI_eIDAS_legal_report_final_0.pdf
 
 - id: eu:certifications
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:certifications
   collection-title: Legislation
   issued: 2024-12-4
   number: 32024R2981
   publisher: Publications Office of the European Union
-  title: >-
-    Commission Implementing Regulation (EU) 2024/2981 of 28 November 2024 laying
-    down rules for the application of Regulation (EU) No 910/2014 of the
-    European Parliament and the Council as regards the certification of European
-    Digital Identity Wallets
+  title: Commission Implementing Regulation (EU) 2024/2981 of 28 November 2024 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and the Council as regards the certification of European Digital Identity Wallets
   title-short: Implementing Regulation 2024/2981
   type: Implementing Regulation (EU)
   URL: http://data.europa.eu/eli/reg_impl/2024/2981/oj
@@ -322,15 +278,11 @@
   author:
     - literal: European Parliament
     - literal: Council of the European Union
-  citation-key: eu:eidas
   collection-title: Legislation
   issued: 2014-8-28
   number: 32014R910
   publisher: Publications Office of the European Union
-  title: >-
-    Regulation (EU) No 910/2014 of the European Parliament and of the Council of
-    23 July 2014 on electronic identification and trust services for electronic
-    transactions in the internal market and repealing Directive 1999/93/EC
+  title: Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/EC
   title-short: Regulation 910/2014
   type: Regulation (EU)
   URL: http://data.europa.eu/eli/reg/2014/910/oj
@@ -339,15 +291,11 @@
   author:
     - literal: European Parliament
     - literal: Council of the European Union
-  citation-key: eu:eudi
   collection-title: Legislation
   issued: 2024-4-30
   number: 32024R1183
   publisher: Publications Office of the European Union
-  title: >-
-    Regulation (EU) 2024/1183 of the European Parliament and of the Council of
-    11 April 2024 amending Regulation (EU) No 910/2014 as regards establishing
-    the European Digital Identity Framework
+  title: Regulation (EU) 2024/1183 of the European Parliament and of the Council of 11 April 2024 amending Regulation (EU) No 910/2014 as regards establishing the European Digital Identity Framework
   title-short: Regulation 2024/1183
   type: Regulation (EU)
   URL: http://data.europa.eu/eli/reg/2024/1183/oj
@@ -356,17 +304,12 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:evaluation
   collection-title: Commission staff working documents (SWD)
   genre: Evaluation
   issued: 2021-6-3
   number: 52021SC0130
   publisher: Publications Office of the European Union
-  title: >-
-    Commission Staff Working Document Accompanying the document 'Report from the
-    Commission to the European Parliament and the Council on the evaluation of
-    Regulation (EU) No 910/2014 on electronic identification and trust services
-    for electronic transactions in the internal market (eIDAS)'
+  title: Commission Staff Working Document Accompanying the document 'Report from the Commission to the European Parliament and the Council on the evaluation of Regulation (EU) No 910/2014 on electronic identification and trust services for electronic transactions in the internal market (eIDAS)'
   title-short: Evaluation SWD/2021/130
   type: report
   URL: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52021SC0130
@@ -374,51 +317,38 @@
 - id: eu:feedback1
   author:
     - literal: European Commission
-  citation-key: eu:feedback1
   collection-title: Have your say – public consultations and feedback
   issued: 2020-9-3
-  publisher: >-
-    Directorate-General for Communications Networks, Content and Technology /
-    European Commission
-  title: >-
-    EU digital ID scheme for online transactions across Europe. Inception impact
-    assessment
+  publisher: Directorate-General for Communications Networks, Content and Technology (European Commission)
+  title:
+    main: EU digital ID scheme for online transactions across Europe
+    sub: Inception impact assessment
   title-short: Feedback on EUDI impact assessment
   type: webpage
-  URL: >-
-    https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12528-EU-digital-ID-scheme-for-online-transactions-across-Europe/feedback_en?p_id=13341
+  URL: https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12528-EU-digital-ID-scheme-for-online-transactions-across-Europe/feedback_en?p_id=13341
 
 - id: eu:feedback2
   author:
     - literal: European Commission
-  citation-key: eu:feedback2
   collection-title: Have your say – public consultations and feedback
   issued: 2021-9-2
-  publisher: >-
-    Directorate-General for Communications Networks, Content and Technology /
-    European Commission
-  title: >-
-    EU digital ID scheme for online transactions across Europe. Proposal for a
-    regulation
+  publisher: Directorate-General for Communications Networks, Content and Technology (European Commission)
+  title:
+    main: EU digital ID scheme for online transactions across Europe
+    sub: Proposal for a regulation
   title-short: Feedback on EUDI proposal
   type: webpage
-  URL: >-
-    https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12528-EU-digital-ID-scheme-for-online-transactions-across-Europe/feedback_en?p_id=14669
+  URL: https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12528-EU-digital-ID-scheme-for-online-transactions-across-Europe/feedback_en?p_id=14669
 
 - id: eu:gdpr
   author:
     - literal: European Parliament
     - literal: Council of the European Union
-  citation-key: eu:gdpr
   collection-title: Legislation
   issued: 2016-4-27
   number: 32016R0679
   publisher: Publications Office of the European Union
-  title: >-
-    Regulation (EU) 2016/679 of the European Parliament and of the Council of 27
-    April 2016 on the protection of natural persons with regard to the
-    processing of personal data and on the free movement of such data, and
-    repealing Directive 95/46/EC (General Data Protection Regulation)
+  title: Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)
   title-short: Regulation 2016/679
   type: Regulation (EU)
   URL: http://data.europa.eu/eli/reg/2016/679/oj
@@ -427,17 +357,12 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:impact
   collection-title: Commission staff working documents (SWD)
   genre: Impact Assessment
   issued: 2021-6-3
   number: 52021SC0124
   publisher: Publications Office of the European Union
-  title: >-
-    Commission Staff Working Document Impact Assessment Report Accompanying the
-    document '<span class="nocase">Proposal for a Regulation</span> of the
-    European Parliament and of the Council amending Regulation (EU) No 910/2014
-    as regards establishing a framework for a European Digital Identity'
+  title: Commission Staff Working Document Impact Assessment Report Accompanying the document 'Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EU) No 910/2014 as regards establishing a framework for a European Digital Identity'
   title-short: Impact Assessment Report SWD/2021/124
   type: report
   URL: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52021SC0124
@@ -446,17 +371,11 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:information
   collection-title: Legislation
   issued: 2025-5-7
   number: 32025R0849
   publisher: Publications Office of the European Union
-  title: >-
-    Commission Implementing Regulation (EU) 2025/849 of 6 May 2025 laying down
-    rules for the application of Regulation (EU) No 910/2014 of the European
-    Parliament and of the Council as regards the submission of information to
-    the Commission and to the Cooperation Group for the list of certified
-    European Digital Identity Wallets
+  title: Commission Implementing Regulation (EU) 2025/849 of 6 May 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards the submission of information to the Commission and to the Cooperation Group for the list of certified European Digital Identity Wallets
   title-short: Implementing Regulation 2025/849
   type: Implementing Regulation (EU)
   URL: http://data.europa.eu/eli/reg_impl/2025/849/oj
@@ -465,16 +384,11 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:matching
   collection-title: Legislation
   issued: 2025-5-7
   number: 32025R0846
   publisher: Publications Office of the European Union
-  title: >-
-    Commission Implementing Regulation (EU) 2025/846 of 6 May 2025 laying down
-    rules for the application of Regulation (EU) No 910/2014 of the European
-    Parliament and of the Council as regards cross-border identity matching of
-    natural persons
+  title: Commission Implementing Regulation (EU) 2025/846 of 6 May 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards cross-border identity matching of natural persons
   title-short: Implementing Regulation 2025/846
   type: Implementing Regulation (EU)
   URL: http://data.europa.eu/eli/reg_impl/2025/846/oj
@@ -483,16 +397,11 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:notifications
   collection-title: Legislation
   issued: 2024-12-4
   number: 32024R2980
   publisher: Publications Office of the European Union
-  title: >-
-    Commission Implementing Regulation (EU) 2024/2980 of 28 November 2024 laying
-    down rules for the application of Regulation (EU) No 910/2014 of the
-    European Parliament and of the Council as regards notifications to the
-    Commission concerning the European Digital Identity Wallet ecosystem
+  title: Commission Implementing Regulation (EU) 2024/2980 of 28 November 2024 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards notifications to the Commission concerning the European Digital Identity Wallet ecosystem
   title-short: Implementing Regulation 2024/2980
   type: Implementing Regulation (EU)
   URL: http://data.europa.eu/eli/reg_impl/2024/2980/oj
@@ -501,16 +410,11 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:opinion1
   collection-title: Regulatory Scrutiny Board Opinions (SEC)
   genre: Opinion on Impact Assessment
   issued: 2021-5-5
   publisher: Publications Office of the European Union
-  title: >-
-    Regulatory Scrutiny Board Opinion on '<span class="nocase">Proposal for a
-    Regulation</span> of the European Parliament and of the Council amending
-    Regulation (EU) No 910/2014 as regards establishing a framework for a
-    European Digital Identity'
+  title: Regulatory Scrutiny Board Opinion on 'Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EU) No 910/2014 as regards establishing a framework for a European Digital Identity'
   title-short: Regulatory Scrutiny Board Opinion SEC/2021/228
   type: report
   URL: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=PI_COM:SEC(2021)228
@@ -519,16 +423,11 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:opinion2
   collection-title: Regulatory Scrutiny Board Opinions (SEC)
   genre: Opinion on Impact Assessment
   issued: 2021-5-28
   publisher: Publications Office of the European Union
-  title: >-
-    Regulatory Scrutiny Board Opinion on 'Report from the Commission to the
-    European Parliament and the Council on the evaluation of Regulation (EU) No
-    910/2014 on electronic identification and trust services for electronic
-    transactions in the internal market (eIDAS)'
+  title: Regulatory Scrutiny Board Opinion on 'Report from the Commission to the European Parliament and the Council on the evaluation of Regulation (EU) No 910/2014 on electronic identification and trust services for electronic transactions in the internal market (eIDAS)'
   title-short: Regulatory Scrutiny Board Opinion SEC/2021/229
   type: report
   URL: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=PI_COM:SEC(2021)229
@@ -537,17 +436,13 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:proposal
   collection-title: Commission legislative proposals (COM)
   genre: Proposal for a Regulation
   issued: 2021-6-3
   number: 52021PC0281
   publisher: Publications Office of the European Union
-  title: >-
-    <span class="nocase">Proposal for a Regulation</span> of the European
-    Parliament and of the Council amending Regulation (EU) No 910/2014 as
-    regards establishing a framework for a European Digital Identity
-  title-short: <span class="nocase">Proposal for a Regulation</span> COM/2021/281
+  title: Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EU) No 910/2014 as regards establishing a framework for a European Digital Identity
+  title-short: Proposal for a Regulation COM/2021/281
   type: report
   URL: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52021PC0281
 
@@ -555,16 +450,11 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:protocols
   collection-title: Legislation
   issued: 2024-12-4
   number: 32024R2982
   publisher: Publications Office of the European Union
-  title: >-
-    Commission Implementing Regulation (EU) 2024/2982 of 28 November 2024 laying
-    down rules for the application of Regulation (EU) No 910/2014 of the
-    European Parliament and of the Council as regards protocols and interfaces
-    to be supported by the European Digital Identity Framework
+  title: Commission Implementing Regulation (EU) 2024/2982 of 28 November 2024 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards protocols and interfaces to be supported by the European Digital Identity Framework
   title-short: Implementing Regulation 2024/2982
   type: Implementing Regulation (EU)
   URL: http://data.europa.eu/eli/reg_impl/2024/2982/oj
@@ -572,10 +462,11 @@
 - id: eu:qa
   author:
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:qa
   issued: 2024-4-4
-  publisher: European Commission / European Commission
-  title: 'Questions & Answers: Digital Identity'
+  publisher: European Commission
+  title:
+    main: Questions & Answers
+    sub: Digital Identity
   title-short: Q&A digital identity
   type: webpage
   URL: https://digital-strategy.ec.europa.eu/en/faqs/qa-digital-identity
@@ -584,16 +475,11 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:relyingparties
   collection-title: Legislation
   issued: 2025-5-7
   number: 32025R0848
   publisher: Publications Office of the European Union
-  title: >-
-    Commission Implementing Regulation (EU) 2025/848 of 6 May 2025 laying down
-    rules for the application of Regulation (EU) No 910/2014 of the European
-    Parliament and of the Council as regards the registration of wallet-relying
-    parties
+  title: Commission Implementing Regulation (EU) 2025/848 of 6 May 2025 laying down rules for the application of Regulation (EU) No 910/2014 of the European Parliament and of the Council as regards the registration of wallet-relying parties
   title-short: Implementing Regulation 2025/848
   type: Implementing Regulation (EU)
   URL: http://data.europa.eu/eli/reg_impl/2025/848/oj
@@ -602,16 +488,12 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:report
   collection-title: Commission legislative proposals (COM)
   genre: Report
   issued: 2021-6-3
   number: 52021DC0290
   publisher: Publications Office of the European Union
-  title: >-
-    Report from the Commission to the European Parliament and the Council on the
-    evaluation of Regulation (EU) No 910/2014 on electronic identification and
-    trust services for electronic transactions in the internal market (eIDAS)
+  title: Report from the Commission to the European Parliament and the Council on the evaluation of Regulation (EU) No 910/2014 on electronic identification and trust services for electronic transactions in the internal market (eIDAS)
   title-short: Report COM/2021/290
   type: report
   URL: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52021DC0290
@@ -620,20 +502,13 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:summary
   collection-title: Commission staff working documents (SWD)
   genre: Summary of Impact Assessment
   issued: 2021-6-3
   number: 52021SC0125
   publisher: Publications Office of the European Union
-  title: >-
-    Commission Staff Working Document Impact Assessment Report Accompanying the
-    document '<span class="nocase">Proposal for a Regulation</span> of the
-    European Parliament and of the Council amending Regulation (EU) No 910/2014
-    as regards establishing a framework for a European Digital Identity'
-  title-short: >-
-    Executive Summary of <span class="nocase">the Impact Assessment
-    Report</span> SWD/2021/125
+  title: Commission Staff Working Document Impact Assessment Report Accompanying the document 'Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EU) No 910/2014 as regards establishing a framework for a European Digital Identity'
+  title-short: Executive Summary of the Impact Assessment Report SWD/2021/125
   type: report
   URL: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:52021SC0125
 
@@ -641,21 +516,16 @@
   author:
     - literal: European Commission
     - literal: Directorate-General for Communications Networks, Content and Technology
-  citation-key: eu:toolbox
   collection-title: Legislation
   issued: 2021-6-3
   number: 32021H0946
   publisher: Publications Office of the European Union
-  title: >-
-    Commission recommendation (EU) 2021/946 of 3 june 2021 on a common union
-    toolbox for a coordinated approach towards a european digital identity
-    framework
+  title: Commission recommendation (EU) 2021/946 of 3 june 2021 on a common union toolbox for a coordinated approach towards a european digital identity framework
   title-short: Recommendation 2021/946
   type: Commission Recommendation (EU)
   URL: http://data.europa.eu/eli/reco/2021/946/oj
 
 - id: fidis:book
-  citation-key: fidis:book
   DOI: https://doi.org/10.1007/978-3-642-01820-6
   editor:
     - family: Rannenberg
@@ -666,20 +536,17 @@
       given: André
   ISBN: 978-3-540-88480-4
   issued: 2009-4-24
-  publisher: Springer-Verlag / European Commission
+  publisher: Springer-Verlag
   publisher-place: Heidelberg, DE
-  title: >-
-    The future of identity in the information society. Challenges and
-    opportunities
+  title:
+    main: The future of identity in the information society
+    sub: Challenges and opportunities
   type: book
 
 - id: fidis:journal
-  author:
-    - literal: Community Research and Development Information Service (CORDIS)
-  citation-key: fidis:journal
   genre: periodical
   ISSN: 1876-0678
-  publisher: Springer-Verlag / European Commission
+  publisher: Springer-Verlag
   publisher-place: Heidelberg, DE
   title: Identity in the information society
   type: document
@@ -691,13 +558,11 @@
       given: Andreas
     - family: Hansen
       given: Marit
-  citation-key: freehaven:terms
   issued: 2010-8-10
   original-date: 2000-7-28
-  title: >-
-    A terminology for talking about privacy by data minimization. Anonymity,
-    unlinkability, undetectability, unobservability, pseudonymity, and identity
-    management
+  title:
+    main: A terminology for talking about privacy by data minimization
+    sub: Anonymity, unlinkability, undetectability, unobservability, pseudonymity, and identity management
   type: report
   URL: http://dud.inf.tu-dresden.de/literatur/Anon_Terminology_v0.34.pdf
   version: '0.34'
@@ -706,20 +571,20 @@
   accessed: 2025-12-6
   author:
     - literal: Google Developers Site
-  citation-key: gc:iam
   publisher: Google
-  title: Identity & access management. Overview
+  title:
+    main: Identity & access management
+    sub: Overview
   title-short: Google cloud IAM overview
   type: webpage
   URL: https://docs.cloud.google.com/iam/docs/overview
 
 - id: idlab:a4ds
-  citation-key: idlab:a4ds
   editor:
     - family: Termont
       given: Wouter
   issued: 2025-5-21
-  publisher: Knowledge on Web Scale (KNoWS) / IDLab, Ghent University – imec
+  publisher: Knowledge on Web Scale (IDLab)
   title: Authorization for data spaces
   type: report
   URL: https://spec.knows.idlab.ugent.be/A4DS/L1/latest/
@@ -731,7 +596,6 @@
       given: Gertjan
     - family: De Meester
       given: Ben
-  citation-key: idlab:pseudo
   collection-title: Lecture notes in computer science
   container-title: Proceedings of ARES2025, part IV
   DOI: 10.1007/978-3-032-00639-4_7
@@ -751,17 +615,21 @@
   page: 111–129
   publisher: Springer
   publisher-place: Cham
-  title: >-
-    Pseudonymity for personal data stores. Pseudonymous WebIDs and decentralized
-    identifiers
+  title:
+    main: Pseudonymity for personal data stores
+    sub: Pseudonymous WebIDs and decentralized identifiers
   type: paper-conference
 
 - id: idlab:queryvc
   author:
-    - literal: >-
-        De Mulder, Gertjan and Dedecker, Ruben and De Meester, Ben and Colpaert,
-        Pieter
-  citation-key: idlab:queryvc
+    - family: De Mulder
+      given: Gertjan
+    - family: Dedecker
+      given: Ruben
+    - family: De Meester
+      given: Ben
+    - family: Colpaert
+      given: Pieter
   collection-title: CEUR workshop proceedings
   container-title: ISWC-C
   editor:
@@ -804,16 +672,15 @@
       given: Beatriz
     - family: Verborgh
       given: Ruben
-  citation-key: idlab:trust
   container-title: Computer Resource Repository
   editor:
     - literal: arXiv Computer Science Section Editorial Committee
   ISSN: 2331-8422
   issued: 2025-12-3
-  publisher: Cornell University / IDLab, Ghent University
-  title: >-
-    Lifting the cage of consent. A techno-legal perspective on evolvable trust
-    relationships
+  publisher: Cornell University
+  title:
+    main: Lifting the cage of consent
+    sub: A techno-legal perspective on evolvable trust relationships
   type: article-journal
   URL: https://arxiv.org/abs/2512.03674
   volume: abs/2512.03674
@@ -832,13 +699,11 @@
       given: Ben
     - family: Verborgh
       given: Ruben
-  citation-key: idlab:uma
   issued: 2024-11-5
-  publisher: SolidLab Flanders / IDLab, Ghent University – imec
+  publisher: SolidLab Flanders
   title: From resource control to digital trust with User-Managed Access
   type: White paper
-  URL: >-
-    https://solidlab.be/wp-content/uploads/2024/11/User-Managed-Access-Whitepaper.pdf
+  URL: https://solidlab.be/wp-content/uploads/2024/11/User-Managed-Access-Whitepaper.pdf
 
 - id: ietf:jsonschema
   author:
@@ -850,11 +715,12 @@
       given: Ben
     - family: Dennis
       given: Greg
-  citation-key: ietf:jsonschema
   genre: Expired Internet-Draft
   issued: 2022-6-16
   publisher: Internet Engineering Task Force (IETF)
-  title: JSON schema. A media type for describing JSON documents
+  title:
+    main: JSON schema
+    sub: A media type for describing JSON documents
   title-short: JSON Schema
   type: report
   URL: https://datatracker.ietf.org/doc/html/draft-bhutton-json-schema-01
@@ -867,7 +733,6 @@
       given: Aaron
     - family: Lodderstedt
       given: Torsten
-  citation-key: ietf:oauth21
   genre: Active Internet-Draft
   issued: 2025-10-19
   publisher: Internet Engineering Task Force (IETF)
@@ -881,7 +746,6 @@
   author:
     - family: Malkin
       given: Gary S.
-  citation-key: ietf:rfc1983
   DOI: 10.17487/RFC1983
   genre: Informational
   issued: 1996-8
@@ -899,7 +763,6 @@
       given: L.
     - family: Malkin
       given: Gary S.
-  citation-key: ietf:rfc2504
   DOI: 10.17487/RFC2504
   genre: Informational
   issued: 1999-2
@@ -913,7 +776,6 @@
   author:
     - family: Shirey
       given: Rob
-  citation-key: ietf:rfc2828
   DOI: 10.17487/RFC2828
   genre: Informational
   issued: 2000-5
@@ -945,7 +807,6 @@
       given: Anni
     - family: Strassner
       given: John
-  citation-key: ietf:rfc3198
   DOI: 10.17487/RFC3198
   genre: Informational
   ISSN: 2070-1721
@@ -964,14 +825,15 @@
       given: Roy
     - family: Masinter
       given: Larry M.
-  citation-key: ietf:rfc3986
   DOI: 10.17487/RFC3986
   genre: Internet Standard
   ISSN: 2070-1721
   issued: 2005-1
   number: RFC 3986
   publisher: Internet Engineering Task Force (IETF)
-  title: Uniform Resource Identifier (URI). Generic syntax
+  title:
+    main: Uniform Resource Identifier (URI)
+    sub: Generic syntax
   title-short: Uniform Resource Identifiers
   type: report
   URL: https://www.rfc-editor.org/info/rfc3986
@@ -980,7 +842,6 @@
   author:
     - family: Shirey
       given: Rob
-  citation-key: ietf:rfc4949
   DOI: 10.17487/RFC4949
   genre: Informational
   issued: 2013-7
@@ -998,7 +859,6 @@
       given: Stephen
     - family: Housley
       given: Russ
-  citation-key: ietf:rfc5755
   DOI: 10.17487/RFC5755
   genre: Proposed Standard
   ISSN: 2070-1721
@@ -1011,7 +871,6 @@
   URL: https://www.rfc-editor.org/info/rfc5755
 
 - id: ietf:rfc6749
-  citation-key: ietf:rfc6749
   DOI: 10.17487/RFC6749
   editor:
     - family: Hardt
@@ -1042,7 +901,6 @@
       given: Marit
     - family: Smith
       given: Rhys
-  citation-key: ietf:rfc6973
   DOI: 10.17487/RFC6973
   genre: Informational
   ISSN: 2070-1721
@@ -1061,7 +919,6 @@
       given: John
     - family: Sakimura
       given: Nat
-  citation-key: ietf:rfc7515
   DOI: 10.17487/RFC7515
   genre: Proposed Standard
   ISSN: 2070-1721
@@ -1081,7 +938,6 @@
       given: John
     - family: Sakimura
       given: Nat
-  citation-key: ietf:rfc7519
   DOI: 10.17487/RFC7519
   genre: Proposed Standard
   ISSN: 2070-1721
@@ -1105,7 +961,6 @@
       given: Anthony
     - family: Zeltsan
       given: Zachary
-  citation-key: ietf:rfc7642
   DOI: 10.17487/RFC7642
   genre: Informational
   ISSN: 2070-1721
@@ -1117,7 +972,6 @@
   URL: https://www.rfc-editor.org/info/rfc7642
 
 - id: ietf:rfc9535
-  citation-key: ietf:rfc9535
   DOI: 10.17487/RFC9535
   editor:
     - family: Gössner
@@ -1131,7 +985,9 @@
   issued: 2024-2
   number: RFC 9535
   publisher: Internet Engineering Task Force (IETF)
-  title: JSONPath. Query expressions for JSON
+  title:
+    main: JSONPath
+    sub: Query expressions for JSON
   title-short: JSONPath
   type: report
   URL: https://www.rfc-editor.org/info/rfc9535
@@ -1142,7 +998,6 @@
       given: Justin
     - family: Imbault
       given: Fabien
-  citation-key: ietf:rfc9635
   DOI: 10.17487/RFC9635
   editor:
     - family: Richter
@@ -1152,10 +1007,8 @@
   issued: 2024-10
   number: RFC 9635
   publisher: Internet Engineering Task Force (IETF)
-  title: >-
-    <span class="nocase">Grant Negotiation and Authorization Protocol</span>
-    (GNAP)
-  title-short: <span class="nocase">Grant Negotiation and Authorization Protocol</span>
+  title: Grant Negotiation and Authorization Protocol (GNAP)
+  title-short: Grant Negotiation and Authorization Protocol
   type: report
   URL: https://www.rfc-editor.org/info/rfc9635
 
@@ -1169,7 +1022,6 @@
       given: A.
     - family: Fett
       given: D.
-  citation-key: ietf:rfc9700
   DOI: 10.17487/RFC9700
   genre: Best Current Practice
   ISSN: 2070-1721
@@ -1184,7 +1036,6 @@
 - id: igrant:eudi
   author:
     - literal: iGrant
-  citation-key: igrant:eudi
   editor:
     - family: Padayatti
       given: George
@@ -1195,16 +1046,15 @@
   issued: 2023-11
   publisher: iGrant
   publisher-place: Sollentuna, SE
-  title: >-
-    EUDI wallets with OpenID for verifiable credentials. Leveraging identity to
-    securely and privately mobilise personal data with digital wallets
+  title:
+    main: EUDI wallets with OpenID for verifiable credentials
+    sub: Leveraging identity to securely and privately mobilise personal data with digital wallets
   type: article-journal
   URL: https://www.igrant.io/papers/EUDI-Wallets-with-OID4VCI_OID4VP_v1.0.pdf
 
 - id: iso:24760
   author:
     - literal: ISO/IEC JTC 1 – SC 27
-  citation-key: iso:24760
   collection-title: Information security, cybersecurity and privacy protection
   genre: International Standard
   issued: 2025-9
@@ -1212,8 +1062,10 @@
   original-date: 2019
   publisher: ISO/IEC Joint Technical Committee 1
   publisher-place: Geneva, Switserland
-  title: A framework for identity management, Part 1. Core concepts and terminology
-  title-short: A framework for identity management
+  title:
+    main: A framework for identity management, Part 1
+    sub: Core concepts and terminology
+  title-short: A framework for identity management (part 1)
   type: report
   URL: https://www.iso.org/standard/24760-1
 
@@ -1221,7 +1073,6 @@
   author:
     - literal: ISO/IEC JTC 1 – SC 7
     - literal: IEEE
-  citation-key: iso:24765
   genre: International Standard
   issued: 2017-8
   number: ISO/IEC 24765:2017
@@ -1236,7 +1087,6 @@
 - id: iso:27000
   author:
     - literal: ISO/IEC JTC 1 – SC 27
-  citation-key: iso:27000
   collection-title: Information technology – Security techniques
   genre: International Standard
   issued: 2018-2
@@ -1244,7 +1094,9 @@
   original-date: 2016
   publisher: ISO/IEC Joint Technical Committee 1
   publisher-place: Geneva, Switserland
-  title: Information security management systems. Overview and vocabulary
+  title:
+    main: Information security management systems
+    sub: Overview and vocabulary
   title-short: Information security management systems
   type: report
   URL: https://www.iso.org/standard/73906.html
@@ -1252,7 +1104,6 @@
 - id: iso:29100
   author:
     - literal: ISO/IEC JTC 1 – SC 27
-  citation-key: iso:29100
   collection-title: Information technology – Security techniques
   genre: International Standard
   issued: 2024-2
@@ -1266,7 +1117,6 @@
 - id: iso:29115
   author:
     - literal: ISO/IEC JTC 1 – SC 27
-  citation-key: iso:29115
   collection-title: Information technology – Security techniques
   genre: International Standard
   issued: 2013-4
@@ -1287,28 +1137,25 @@
       given: Udbhav
     - family: Wilton
       given: Robin
-  citation-key: isoc:impact
   collection-title: Internet impact brief
   issued: 2021-11-8
-  publisher: Internet Society / Internet Society Foundation
-  title: >-
-    Mandated browser root certificates in the european union's eIDAS regulation
-    on the internet
+  publisher: The Internet Society Foundation
+  title: Mandated browser root certificates in the European Union's eIDAS regulation on the internet
   title-short: Mandated browser root certificates
   type: webpage
-  URL: >-
-    https://www.internetsociety.org/wp-content/uploads/2021/11/IIB_Mandated-Browser-Root-Certificates-in-the-European-Unions-eIDAS-EN.pdf
+  URL: https://www.internetsociety.org/wp-content/uploads/2021/11/IIB_Mandated-Browser-Root-Certificates-in-the-European-Unions-eIDAS-EN.pdf
 
 - id: johnson:decentralized
   author:
     - family: Johnson
       given: Norman L.
-  citation-key: johnson:decentralized
   event-date: 1999-11-19/1999-11-20
   issued: 1999
   publisher: University of California
   publisher-place: Los Angeles, CA
-  title: Diversity in decentralized systems. Enabling self-organizing solutions
+  title:
+    main: Diversity in decentralized systems
+    sub: Enabling self-organizing solutions
   title-short: Diversity in decentralized systems
   type: paper-conference
 
@@ -1318,16 +1165,13 @@
       given: R.
     - family: Taylor
       given: R.N.
-  citation-key: khare:decentralized
-  container-title: Proceedings. 26th international conference on software engineering
+  container-title: Proceedings of the 26th international conference on software engineering
   DOI: 10.1109/ICSE.2004.1317465
   event-date: 2004-5-28/2004-5-28
   issued: 2004
   page: 428–437
   publisher: Institute for Electrical and Electronic Engineers (IEEE)
-  title: >-
-    Extending the Representational State Transfer (REST) architectural style for
-    decentralized systems
+  title: Extending the Representational State Transfer (REST) architectural style for decentralized systems
   title-short: Extending REST for decentralized systems
   type: paper-conference
 
@@ -1335,7 +1179,6 @@
   author:
     - family: Knuth
       given: Donald E.
-  citation-key: knuth:1984:literate_programming
   container-title: The Computer Journal
   DOI: 10.1093/comjnl/27.2.97
   ISSN: 0010-4620
@@ -1351,32 +1194,28 @@
 - id: mozilla:position
   author:
     - literal: The Mozilla Blog
-  citation-key: mozilla:position
   issued: 2021-11
   publisher: Mozilla
   publisher-place: San Fransisco, CA
-  title: >-
-    EU digital identity framework (eIDAS). Position paper on the European
-    Commission's legislative proposal to revise the eIDAS Regulation
+  title:
+    main: EU digital identity framework (eIDAS)
+    sub: Position paper on the European Commission's legislative proposal to revise the eIDAS Regulation
   title-short: eIDAS position paper
   type: webpage
-  URL: >-
-    https://blog.mozilla.org/netpolicy/files/2021/11/eIDAS-Position-paper-Mozilla-.pdf
+  URL: https://blog.mozilla.org/netpolicy/files/2021/11/eIDAS-Position-paper-Mozilla-.pdf
 
 - id: mozilla:response
   author:
     - literal: The Mozilla Blog
-  citation-key: mozilla:response
   issued: 2020-10-1
   publisher: Mozilla
   publisher-place: San Fransisco, CA
-  title: >-
-    European Commission's open public consultation on eIDAS. Attachment to
-    mozilla's survey response
+  title:
+    main: European Commission's open public consultation on eIDAS
+    sub: Attachment to mozilla's survey response
   title-short: Attachment to the open public consultation on eIDAS
   type: webpage
-  URL: >-
-    https://blog.mozilla.org/netpolicy/files/2020/10/2020-10-01-eIDAS-Open-Public-Consultation-EU-Commission-.pdf
+  URL: https://blog.mozilla.org/netpolicy/files/2020/10/2020-10-01-eIDAS-Open-Public-Consultation-EU-Commission-.pdf
 
 - id: narayanan:decentralized
   author:
@@ -1390,7 +1229,6 @@
       given: Helen
     - family: Boneh
       given: Dan
-  citation-key: narayanan:decentralized
   container-title: Computer Resource Repository
   editor:
     - literal: arXiv Computer Science Section Editorial Committee
@@ -1405,16 +1243,13 @@
 - id: nist:fips200
   author:
     - literal: National Institute of Standards and Technology (NIST)
-  citation-key: nist:fips200
   DOI: 10.6028/NIST.FIPS.200
   genre: Federal Information Processing Standard
   issued: 2006-3-1
   number: NIST FIPS 200
   publisher: U.S. Department of Commerce
   publisher-place: Washington, DC
-  title: >-
-    Minimum security requirements for federal information and information
-    systems
+  title: Minimum security requirements for federal information and information systems
   title-short: Minimum security requirements
   type: report
   URL: https://csrc.nist.gov/pubs/fips/200/final
@@ -1422,7 +1257,6 @@
 - id: nist:fips201
   author:
     - literal: National Institute of Standards and Technology (NIST)
-  citation-key: nist:fips201
   DOI: 10.6028/NIST.FIPS.201-3
   genre: Federal Information Processing Standard
   issued: 2022-1-24
@@ -1442,15 +1276,16 @@
       given: William
     - family: Khan
       given: Jamil
-  citation-key: nist:sp800-103
   DOI: 10.6028/NIST.SP.800-103
   genre: Special Publication
   issued: 2006-10
   number: NIST SP 800-103 (IPD)
   publisher: National Institute of Standards and Technology (NIST)
   publisher-place: Gaithersburg, MD
-  title: An ontology of identity credentials, part 1. Background and formulation
-  title-short: An ontology of identity credentials
+  title:
+    main: An ontology of identity credentials, part 1
+    sub: Background and formulation
+  title-short: An ontology of identity credentials (part 1)
   type: report
   URL: https://csrc.nist.gov/pubs/sp/800/103/ipd
   version: Initial Public Draft
@@ -1463,7 +1298,6 @@
       given: Dennis
     - family: Smid
       given: Miles
-  citation-key: nist:sp800-152
   DOI: 10.6028/NIST.SP.800-152
   genre: Special Publication
   issued: 2015-10
@@ -1479,16 +1313,15 @@
   author:
     - family: Barker
       given: Elaine
-  citation-key: nist:sp800-175
   DOI: 10.6028/NIST.SP.800-175Br1
   genre: Special Publication
   issued: 2020-3
   number: NIST SP 800-175B Rev. 1
   publisher: National Institute of Standards and Technology (NIST)
   publisher-place: Gaithersburg, MD
-  title: >-
-    Guideline for using cryptographic standards in the federal government.
-    Cryptographic mechanisms
+  title:
+    main: Guideline for using cryptographic standards in the federal government
+    sub: Cryptographic mechanisms
   title-short: Guideline for using cryptographic standards
   type: report
   URL: https://csrc.nist.gov/pubs/sp/800/175/b/r1/final
@@ -1497,15 +1330,16 @@
   author:
     - family: Barker
       given: Elaine
-  citation-key: nist:sp800-57
   DOI: 10.6028/NIST.SP.800-57pt1r5
   genre: Special Publication
   issued: 2020-5
   number: NIST SP 800-57 Part 1 Rev. 5
   publisher: National Institute of Standards and Technology (NIST)
   publisher-place: Gaithersburg, MD
-  title: Recommendation for key management, part 1. General
-  title-short: Recommendation for key management
+  title:
+    main: Recommendation for key management, part 1
+    sub: General
+  title-short: Recommendation for key management (part 1)
   type: report
   URL: https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final
 
@@ -1527,7 +1361,6 @@
       given: Naomi
     - family: Regenscheid
       given: Andrew
-  citation-key: nist:sp800-63
   DOI: 10.6028/NIST.SP.800-63-4
   genre: Special Publication
   issued: 2025-8-1
@@ -1556,14 +1389,15 @@
       given: Naomi
     - family: Regenscheid
       given: Andrew
-  citation-key: nist:sp800-63a
   DOI: 10.6028/NIST.SP.800-63A-4
   genre: Special Publication
   issued: 2025-8-1
   number: NIST SP 800-63A-4
   publisher: National Institute of Standards and Technology (NIST)
   publisher-place: Gaithersburg, MD
-  title: Digital identity guidelines. Identity proofing and enrollment
+  title:
+    main: Digital identity guidelines
+    sub: Identity proofing and enrollment
   title-short: Digital identity proofing and enrollment
   type: report
   URL: https://csrc.nist.gov/pubs/sp/800/63/a/4/final
@@ -1584,14 +1418,15 @@
       given: Ryan
     - family: Richer
       given: Justin
-  citation-key: nist:sp800-63b
   DOI: 10.6028/NIST.SP.800-63B-4
   genre: Special Publication
   issued: 2025-8-1
   number: NIST SP 800-63B-4
   publisher: National Institute of Standards and Technology (NIST)
   publisher-place: Gaithersburg, MD
-  title: Digital identity guidelines. Authentication and authenticator management
+  title:
+    main: Digital identity guidelines
+    sub: Authentication and authenticator management
   title-short: Digital identity authentication and authenticator management
   type: report
   URL: https://csrc.nist.gov/pubs/sp/800/63/b/4/final
@@ -1612,14 +1447,15 @@
       given: Andrew
     - family: Galluzzo
       given: Ryan
-  citation-key: nist:sp800-63c
   DOI: 10.6028/NIST.SP.800-63C-4
   genre: Special Publication
   issued: 2025-8-1
   number: NIST SP 800-63C-4
   publisher: National Institute of Standards and Technology (NIST)
   publisher-place: Gaithersburg, MD
-  title: Digital identity guidelines. Federation and assertions
+  title:
+    main: Digital identity guidelines
+    sub: Federation and assertions
   title-short: Digital identity federation and assertions
   type: report
   URL: https://csrc.nist.gov/pubs/sp/800/63/c/4/final
@@ -1627,7 +1463,6 @@
 - id: oasis:glossary
   author:
     - literal: OASIS Security Services Technical Committee
-  citation-key: oasis:glossary
   editor:
     - family: Hodges
       given: Jeff
@@ -1647,7 +1482,6 @@
 - id: oasis:identity
   author:
     - literal: OASIS Identity Metasystem Interoperability Technical Committee
-  citation-key: oasis:identity
   editor:
     - family: Jones
       given: Michael B.
@@ -1665,7 +1499,6 @@
 - id: oasis:saml
   author:
     - literal: OASIS Security Services Technical Committee
-  citation-key: oasis:saml
   editor:
     - family: Cantor
       given: Scott
@@ -1679,9 +1512,7 @@
   issued: 2005-3
   publisher: Organization for the Advancement of Structured Information Standards
   publisher-place: Woburn, MA
-  title: >-
-    Assertions and protocols for the OASIS Security Assertion Markup Language
-    v2.0
+  title: Assertions and protocols for the OASIS Security Assertion Markup Language v2.0
   title-short: Assertions and protocols for SAML
   type: report
   URL: https://docs.oasis-open.org/security/saml/v2.0/saml-core-2.0-os.pdf
@@ -1689,7 +1520,6 @@
 - id: oecd:govdi
   author:
     - literal: OECD Council at Ministerial Level
-  citation-key: oecd:govdi
   collection-title: OECD legal instruments
   issued: 2023-6-8
   number: OECD/LEGAL/0491
@@ -1705,7 +1535,6 @@
       given: Nat
     - family: Jay
       given: Edmund
-  citation-key: openid:aggregation
   editor:
     - family: Group
       given: OpenID Connect Working
@@ -1732,7 +1561,6 @@
       non-dropping-particle: de
     - family: Mortimore
       given: C.
-  citation-key: openid:connect
   editor:
     - family: Group
       given: OpenID Connect Working
@@ -1754,7 +1582,6 @@
       given: D.
     - family: Heenan
       given: J.
-  citation-key: openid:fapi
   editor:
     - literal: FAPI Working Group
   genre: Final Specification
@@ -1766,7 +1593,6 @@
   URL: https://openid.net/specs/fapi-security-profile-2_0-final.html
 
 - id: openid:govcreds
-  citation-key: openid:govcreds
   editor:
     - family: Flanagan
       given: Heather
@@ -1777,12 +1603,10 @@
   title: Government-issued digital credentials and the privacy landscape
   title-short: Government-issued credentials
   type: report
-  URL: >-
-    https://openid.net/wp-content/uploads/2023/08/Government-issued-Digital-Credentials-and-the-Privacy-Landscape-v1-1-final.pdf
+  URL: https://openid.net/wp-content/uploads/2023/08/Government-issued-Digital-Credentials-and-the-Privacy-Landscape-v1-1-final.pdf
   version: '1.1'
 
 - id: openid:govdi
-  citation-key: openid:govdi
   editor:
     - family: Garber
       given: Elisabeth
@@ -1792,11 +1616,12 @@
   issued: 2023-10-23
   publisher: OpenID Foundation
   publisher-place: San Ramon, CA
-  title: Human-centric digital identity. for government officials
+  title:
+    main: Human-centric digital identity
+    sub: for government officials
   title-short: Human-centric digital identity
   type: report
-  URL: >-
-    https://openid.net/wp-content/uploads/2023/10/Human-Centric_Digital_Identity_Final-v1.1.pdf
+  URL: https://openid.net/wp-content/uploads/2023/10/Human-Centric_Digital_Identity_Final-v1.1.pdf
   version: '1.1'
 
 - id: openid:haip
@@ -1809,7 +1634,6 @@
       given: C.
     - family: Heenan
       given: J.
-  citation-key: openid:haip
   editor:
     - literal: Digital Credentials Protocols Working Group
   genre: Draft Specification
@@ -1819,8 +1643,7 @@
   title: OpenID4VC high assurance interoperability profile 1.0
   title-short: OpenID4VC high assurance interoperability profile
   type: report
-  URL: >-
-    https://openid.net/specs/openid4vc-high-assurance-interoperability-profile-1_0.html
+  URL: https://openid.net/specs/openid4vc-high-assurance-interoperability-profile-1_0.html
 
 - id: openid:ida
   author:
@@ -1836,11 +1659,8 @@
       given: Kai
     - family: Koiwai
       given: Kosuke
-  citation-key: openid:ida
   editor:
-    - literal: >-
-        Electronic Know-Your-Customer and Identity Assurance (eKYC & IDA)
-        Working Group
+    - literal: Electronic Know-Your-Customer and Identity Assurance (eKYC & IDA) Working Group
   genre: Final Specification
   issued: 2024-10-1
   publisher: OpenID Foundation
@@ -1864,11 +1684,8 @@
       given: Kai
     - family: Koiwai
       given: Kosuke
-  citation-key: openid:idareg
   editor:
-    - literal: >-
-        Electronic Know-Your-Customer and Identity Assurance (eKYC & IDA)
-        Working Group
+    - literal: Electronic Know-Your-Customer and Identity Assurance (eKYC & IDA) Working Group
   genre: Final Specification
   issued: 2024-10-1
   publisher: OpenID Foundation
@@ -1892,11 +1709,8 @@
       given: Kai
     - family: Koiwai
       given: Kosuke
-  citation-key: openid:idaschema
   editor:
-    - literal: >-
-        Electronic Know-Your-Customer and Identity Assurance (eKYC & IDA)
-        Working Group
+    - literal: Electronic Know-Your-Customer and Identity Assurance (eKYC & IDA) Working Group
   genre: Final Specification
   issued: 2024-10-1
   publisher: OpenID Foundation
@@ -1912,10 +1726,8 @@
       given: D.
     - family: Lodderstedt
       given: T.
-  citation-key: openid:security
   editor:
-    - family: Group
-      given: OpenID Connect Working
+    - literal: OpenID Connect Working Group
   genre: Draft Specification
   issued: 2024-3-14
   publisher: OpenID Foundation
@@ -1923,8 +1735,7 @@
   title: Security and trust in OpenID for verifiable credentials ecosystems
   title-short: Security and trust in OpenID4VC
   type: report
-  URL: >-
-    https://openid.github.io/OpenID4VC_SecTrust/draft-oid4vc-security-and-trust.html
+  URL: https://openid.github.io/OpenID4VC_SecTrust/draft-oid4vc-security-and-trust.html
 
 - id: openid:siop
   author:
@@ -1934,10 +1745,8 @@
       given: M.
     - family: Lodderstedt
       given: T.
-  citation-key: openid:siop
   editor:
-    - family: Group
-      given: OpenID Connect Working
+    - literal: OpenID Connect Working Groups
   genre: Draft Specification
   issued: 2023-11-28
   publisher: OpenID Foundation
@@ -1948,7 +1757,6 @@
   URL: https://openid.net/specs/openid-connect-self-issued-v2-1_0.html
 
 - id: openid:trustmodel
-  citation-key: openid:trustmodel
   editor:
     - family: Yasuda
       given: Kristina
@@ -1964,13 +1772,12 @@
   issued: 2022-6-23
   publisher: OpenID Foundation
   publisher-place: San Ramon, CA
-  title: >-
-    OpenID for verifiable credentials. A shift in the trust model brought by
-    verifiable credentials
+  title:
+    main: OpenID for verifiable credentials
+    sub: A shift in the trust model brought by verifiable credentials
   title-short: OpenID4VC trust model
   type: report
-  URL: >-
-    https://openid.net/wordpress-content/uploads/2022/06/OIDF-Whitepaper_OpenID-for-Verifiable-Credentials-V2_2022-06-23.pdf
+  URL: https://openid.net/wordpress-content/uploads/2022/06/OIDF-Whitepaper_OpenID-for-Verifiable-Credentials-V2_2022-06-23.pdf
 
 - id: openid:vci
   author:
@@ -1982,7 +1789,6 @@
       given: T.
     - family: Bastian
       given: P.
-  citation-key: openid:vci
   editor:
     - literal: Digital Credentials Protocols Working Group
   genre: Final Specification
@@ -2006,7 +1812,6 @@
       given: D.
     - family: Heenan
       given: J.
-  citation-key: openid:vp
   editor:
     - literal: Digital Credentials Protocols Working Group
   genre: Final Specification
@@ -2023,9 +1828,8 @@
   author:
     - family: Peeters
       given: Stijn
-  citation-key: peeters:decentralized
   collection-title: INC reader
-  container-title: Appendix to `Unlikely outcomes'
+  container-title: Appendix to 'Unlikely outcomes'
   editor:
     - family: Lovink
       given: Geert
@@ -2036,11 +1840,12 @@
   issued: 2013
   publisher: Institute of Network Cultures
   publisher-place: Amsterdam, NL
-  title: Beyond distributed and decentralized. What is a federated network?
+  title:
+    main: Beyond distributed and decentralized
+    sub: What is a federated network?
   title-short: Beyond distributed and decentralized
   type: paper-conference
-  URL: >-
-    https://networkcultures.org/unlikeus/resources/articles/what-is-a-federated-network/
+  URL: https://networkcultures.org/unlikeus/resources/articles/what-is-a-federated-network/
 
 - id: sabiguero:trust
   author:
@@ -2050,7 +1855,6 @@
       given: Alfonso
     - family: Esnal
       given: Gonzalo
-  citation-key: sabiguero:trust
   container-title: Proceedings of IEEE URUCON 2024
   DOI: 10.1109/URUCON63440.2024.10850093
   event-date: 2024-11-28/2024-11-28
@@ -2064,15 +1868,15 @@
   author:
     - family: Schall
       given: Markus
-  citation-key: schall:eudi
   container-title: Magazine for Europe, economy, AI and digitalization
   issued: 2025-11-13
   publisher: M. Schall Verlag
   publisher-place: Oldenburg, DE
-  title: The EU's digital ID. Linking, control and risks in everyday life
+  title:
+    main: The EU's digital ID
+    sub: Linking, control and risks in everyday life
   type: webpage
-  URL: >-
-    https://www.markus-schall.de/en/2025/11/the-eus-digital-id-linking-control-and-risk-in-everyday-life/
+  URL: https://www.markus-schall.de/en/2025/11/the-eus-digital-id-linking-control-and-risk-in-everyday-life/
 
 - id: serrano:federated
   author:
@@ -2086,8 +1890,7 @@
       given: Willie
     - family: Galis
       given: Alex
-  citation-key: serrano:federated
-  collection-title: <span class="nocase">Lecture Notes in Computer Science</span>
+  collection-title: Lecture Notes in Computer Science
   container-title: The future internet
   editor:
     - family: Domingue
@@ -2141,7 +1944,6 @@
       given: Maciej
     - family: Richter
       given: Justin
-  citation-key: uma:fed
   editor:
     - family: Maler
       given: Eva
@@ -2151,8 +1953,7 @@
   title: Federated authorization for User-Managed Access (UMA)
   title-short: Federated authorization for UMA
   type: report
-  URL: >-
-    https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-federated-authz-2.0.html
+  URL: https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-federated-authz-2.0.html
   version: '2.0'
 
 - id: uma:grant
@@ -2161,7 +1962,6 @@
       given: Maciej
     - family: Richter
       given: Justin
-  citation-key: uma:grant
   editor:
     - family: Maler
       given: Eva
@@ -2175,9 +1975,6 @@
   version: '2.0'
 
 - id: w3c:credapi
-  author:
-    - literal: W3C Federated Identity Working Group
-  citation-key: w3c:credapi
   editor:
     - family: Caceres
       given: Marcos
@@ -2188,7 +1985,7 @@
   genre: Working Draft
   issued:
     - literal: 2025-11ember
-  publisher: World Wide Web Consortium
+  publisher: Federated Identity Working Group (World Wide Web Consortium)
   title: Digital credentials
   type: report
   URL: https://www.w3.org/TR/digital-credentials/
@@ -2207,7 +2004,6 @@
       given: Orie
     - family: Allen
       given: Christopher
-  citation-key: w3c:did
   editor:
     - family: Sporny
       given: Manu
@@ -2219,7 +2015,7 @@
       given: Drummond
   genre: Recommendation
   issued: 2022-7
-  publisher: W3C Decentralized Identifier Working Group / World Wide Web Consortium
+  publisher: Decentralized Identifier Working Group (World Wide Web Consortium)
   title: Decentralized Identifiers v1.0
   title-short: Decentralized Identifiers
   type: report
@@ -2239,15 +2035,12 @@
       given: Julian
     - family: Ryan
       given: Paul
-  citation-key: w3c:dpv
   editor:
     - family: Pandit
       given: Harshvardhan J.
   genre: Final Community Group Report
   issued: 2025-10-31
-  publisher: >-
-    Data Privacy Vocabularies and Controls Community Group / World Wide Web
-    Consortium
+  publisher: Data Privacy Vocabularies and Controls Community Group (World Wide Web Consortium)
   title: Data Privacy Vocabulary (DPV)
   title-short: Data Privacy Vocabulary
   type: report
@@ -2255,24 +2048,18 @@
   version: '2.2'
 
 - id: w3c:fedcm
-  author:
-    - literal: W3C Federated Identity Working Group
-  citation-key: w3c:fedcm
   editor:
     - family: Moreno
       given: Nicolás P.
   genre: First Public Working Draft
   issued: 2024-8
-  publisher: World Wide Web Consortium
+  publisher: Federated Identity Working Group (World Wide Web Consortium)
   title: Federated credential management API
   title-short: Federated credential management
   type: report
   URL: https://www.w3.org/TR/fedcm/
 
 - id: w3c:glossary
-  author:
-    - literal: W3C Web Services Architecture Working Group
-  citation-key: w3c:glossary
   editor:
     - family: Haas
       given: Hugo
@@ -2280,7 +2067,7 @@
       given: Allen
   genre: Working Group Note
   issued: 2004-2
-  publisher: World Wide Web Consortium
+  publisher: Web Services Architecture Working Group (World Wide Web Consortium)
   title: Web services glossary
   type: report
   URL: http://www.w3.org/TR/ws-gloss/
@@ -2288,7 +2075,6 @@
 - id: w3c:identity
   author:
     - literal: W3C Team
-  citation-key: w3c:identity
   editor:
     - family: Onofri
       given: Simone
@@ -2300,9 +2086,6 @@
   URL: https://www.w3.org/reports/identity-web-impact/
 
 - id: w3c:odrl
-  author:
-    - literal: W3C Permissions and Obligations Expression Working Group
-  citation-key: w3c:odrl
   editor:
     - family: Iannella
       given: Renato
@@ -2310,17 +2093,16 @@
       given: Serena
   genre: Recommendation
   issued: 2018-2-15
-  publisher: World Wide Web Consortium
-  title: Open Digital Rights Language (ODRL). Information model
+  publisher: Permissions and Obligations Expression Working Group (World Wide Web Consortium)
+  title:
+    main: Open Digital Rights Language (ODRL)
+    sub: Information model
   title-short: ODRL information model
   type: report
   URL: https://www.w3.org/TR/odrl-model/
   version: '2.2'
 
 - id: w3c:odrlvoc
-  author:
-    - literal: W3C Permissions and Obligations Expression Working Group
-  citation-key: w3c:odrlvoc
   editor:
     - family: Iannella
       given: Renato
@@ -2332,8 +2114,10 @@
       given: Víctor
   genre: Recommendation
   issued: 2018-2-15
-  publisher: World Wide Web Consortium
-  title: Open Digital Rights Language (ODRL). Vocabulary and expression
+  publisher: Permissions and Obligations Expression Working Group (World Wide Web Consortium)
+  title:
+    main: Open Digital Rights Language (ODRL).
+    sub: Vocabulary and expression
   title-short: ODRL vocabulary and expression
   type: report
   URL: https://www.w3.org/TR/odrl-vocab/
@@ -2349,15 +2133,12 @@
       given: Georg P.
     - family: Pandit
       given: Harshvardhan J.
-  citation-key: w3c:pdc
   editor:
     - family: Pandit
       given: Harshvardhan J.
   genre: Final Community Group Report
   issued: 2025-8-1
-  publisher: >-
-    Data Privacy Vocabularies and Controls Community Group / World Wide Web
-    Consortium
+  publisher: Data Privacy Vocabularies and Controls Community Group (World Wide Web Consortium)
   title: Personal Data Categories (PDC)
   title-short: Personal Data Categories
   type: report
@@ -2365,9 +2146,6 @@
   version: '2.2'
 
 - id: w3c:rdf
-  author:
-    - literal: W3C RDF Working Group
-  citation-key: w3c:rdf
   editor:
     - family: Cyganiak
       given: Richard
@@ -2377,17 +2155,16 @@
       given: Markus
   genre: Recommendation
   issued: 2014-2-25
-  publisher: World Wide Web Consortium
-  title: Resource Description Framework (RDF). Concepts and abstract syntax
+  publisher: RDF Working Group (World Wide Web Consortium)
+  title:
+    main: Resource Description Framework (RDF)
+    sub: Concepts and abstract syntax
   title-short: Resource Description Framework
   type: report
   URL: http://www.w3.org/TR/rdf11-concepts/
   version: '1.1'
 
 - id: w3c:sparql
-  author:
-    - literal: W3C SPARQL Working Group
-  citation-key: w3c:sparql
   editor:
     - family: Harris
       given: Steve
@@ -2395,7 +2172,7 @@
       given: Seaborne
   genre: Recommendation
   issued: 2013-3-21
-  publisher: World Wide Web Consortium
+  publisher: SPARQL Working Group (World Wide Web Consortium)
   title: SPARQL protocol and RDF query language
   title-short: SPARQL query language
   type: report
@@ -2415,7 +2192,6 @@
       given: Gabe
     - family: Jones
       given: Michael B.
-  citation-key: w3c:vc
   editor:
     - family: Sporny
       given: Manu
@@ -2427,16 +2203,13 @@
       given: Ivan
   genre: Recommendation
   issued: 2022-5
-  publisher: W3C Decentralized Identifier Working Group / World Wide Web Consortium
+  publisher: Decentralized Identifier Working Group (World Wide Web Consortium)
   title: Verifiable credentials data model v2.0
   title-short: Verifiable credentials data model
   type: report
   URL: https://www.w3.org/TR/vc-data-model-2.0/
 
 - id: w3c:webauthn
-  author:
-    - literal: W3C Web Authentication Working Group
-  citation-key: w3c:webauthn
   editor:
     - family: Hodges
       given: Jeff
@@ -2450,8 +2223,10 @@
       given: Emil
   genre: Recommendation
   issued: 2021-4-8
-  publisher: World Wide Web Consortium
-  title: Web authentication. An API for accessing Public Key Credentials Level 2
+  publisher: Web Authentication Working Group (World Wide Web Consortium)
+  title:
+    main: Web authentication
+    sub: An API for accessing Public Key Credentials (Level 2)
   title-short: Web Authentication
   type: report
   URL: https://www.w3.org/TR/webauthn/
@@ -2462,7 +2237,6 @@
       given: Anne
     - family: Wheeler
       given: Lynn
-  citation-key: wheeler:privacy
   title: Privacy glossary
   type: webpage
   URL: https://www.garlic.com/~lynn/privgloss.htm
@@ -2473,7 +2247,6 @@
       given: Anne
     - family: Wheeler
       given: Lynn
-  citation-key: wheeler:security
   title: Security glossary
   type: webpage
   URL: https://www.garlic.com/~lynn/secgloss.htm
