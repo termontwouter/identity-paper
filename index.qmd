@@ -1,4 +1,9 @@
 ---
+format:
+  ieee-html:
+    output-file: index.html
+  hikmah-pdf:
+    output-file: index.pdf
 title: OpenID for European Digital Identity
 subtitle: An architectural analysis of user-centric identity management
 short-title: "OpenID for EUDI: An architectural analysis"

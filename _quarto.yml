@@ -4,11 +4,6 @@ project:
   type: default
   title: European digital identity
 
-format:
-  ieee-html:
-    output-file: index.html
-  hikmah-pdf:
-    output-file: index.pdf
 
 embed-resources: true
 self-contained: true
