@@ -1,0 +1,42 @@
+/*-- scss:uses --*/
+/*-- scss:mixins --*/
+/*-- scss:defaults --*/
+/*-- scss:functions --*/
+/*-- scss:rules --*/
+.center-logo {
+  position: absolute;
+  max-width: 6vw;
+  max-height: 4.4rem;
+  bottom: 5px;
+  right: calc(50% - 3vw);
+  z-index: 1;
+}
+.corner-logo {
+  position: absolute;
+  max-width: 5vw;
+  max-height: 3.4rem;
+  bottom: 5px;
+  right: 5px;
+  z-index: 1;
+}
+.reveal .header-logo img {
+  max-width: 7.5vw;
+  max-height: 8.4rem;
+}
+table td, table th {
+  vertical-align: middle;
+}
+.remark-nope {
+  color: red;
+}
+.remark-oidc {
+  color: rgb(27, 145, 255);
+}
+.fn-custom {
+  margin-left: 1em;
+}
+.fn-custom ::before {
+  content: '*';
+  margin-left: -3px;
+  padding-right: 10px;
+}
