@@ -1,6 +1,14 @@
 /*-- scss:uses --*/
 /*-- scss:mixins --*/
 /*-- scss:defaults --*/
+$secuweb-dark-blue: #044e8b;
+$secuweb-blue: #0e6fb6;
+$secuweb-marine: #2cb3a5;
+$secuweb-green: #9bc444;
+$secuweb-red: #dc5d57;
+$secuweb-orange: #f18749;
+$knows-dark-green: #0ead69;
+$solid-purple: #7c4dff;
 /*-- scss:functions --*/
 /*-- scss:rules --*/
 .center-logo {
@@ -19,24 +27,68 @@
   right: 5px;
   z-index: 1;
 }
-.reveal .header-logo img {
-  max-width: 7.5vw;
-  max-height: 8.4rem;
+.ex {
+  font-size: .75em;
+  font-style: italic;
 }
-table td, table th {
-  vertical-align: middle;
+.dark-green { color: $knows-dark-green; }
+.dark-blue { color: $secuweb-dark-blue; }
+.blue { color: $secuweb-blue; }
+.marine { color: $secuweb-marine; }
+.green { color: $secuweb-green; }
+.red { color: $secuweb-red; }
+.orange { color: $secuweb-orange; }
+.purple { color: $solid-purple; }
+.reveal {
+  .header-logo img {
+    max-width: 7.5vw;
+    max-height: 8.4rem;
+  }
+  .header-text {
+    grid-area: sc;
+  }
+  .slides {
+    table, table tr:last-child td {
+      border-bottom: none;
+    }
+    table td, table th {
+      vertical-align: middle;
+    }
+  }
+  blockquote {
+    margin-bottom: 1em;
+
+    h4 {
+      color: rgb(96, 79, 220);
+    }
+  }
+  ul ul {
+    margin-left: 20px;
+
+    li {
+      font-size: .8em;
+      list-style: none;
+    }
+  }
 }
 .remark-nope {
-  color: red;
+  color: #ec1c31;
+  font-weight: 400;
 }
 .remark-oidc {
-  color: rgb(27, 145, 255);
+  color: #18ad67;
+  font-weight: 400;
 }
 .fn-custom {
   margin-left: 1em;
+
+  ::before {
+    content: '*';
+    font-weight: 300;
+    margin-left: -3px;
+    padding-right: 10px;
+  }
 }
-.fn-custom ::before {
-  content: '*';
-  margin-left: -3px;
-  padding-right: 10px;
+.section-block {
+  margin: 2em 0;
 }
