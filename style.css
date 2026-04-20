@@ -60,7 +60,7 @@ $solid-purple: #7c4dff;
       color: rgb(96, 79, 220);
     }
   }
-  ul ul {
+  ul ul, ul ol, ol ul, ol ol {
     margin-left: 20px;
 
     li {
