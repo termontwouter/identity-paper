@@ -182,7 +182,7 @@ Participation in the EU Digital Identity space dependent on [**economical** and 
     [... not needed without wallets]{.fragment .fade-in-then-semi-out .remark-nope fragment-index=6}
 :::::
 
-# Back to the drawing board
+<!-- # Back to the drawing board -->
 
 ## A self-sovereignty based on mutual trust
 
