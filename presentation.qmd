@@ -8,7 +8,7 @@ author:
 affiliation: Ghent University – imec
 format:
   revealjs:
-    output-file: present.html
+    output-file: presentation.html
 theme:
   # white|solarized|moon|night|dracula
   # _extensions/InseeFrLab/onyxia/onyxia.scss
@@ -29,7 +29,7 @@ include-before-body:
     <img src='./solidlab.png' class='center-logo'>
 logo: idlab.png
 header-logo: secuweb.jpg
-sc-sb-title: false
+sc-sb-title: true
 slide-number: true
 slide-level: 2
 # header: ...
@@ -94,10 +94,6 @@ A **general, extensible model** applicable to *many concrete domains*.
 # European Digital Identity
 
 ## Regulations
-
-<!-- ::: header
-European Digital Identity
-::: -->
 
 ::: {.columns}
 :::: {.column .fragment .fade-in}
@@ -174,6 +170,7 @@ Participation in the EU Digital Identity space dependent on [**economical** and 
   - [No pre-established verifier--issuer relations]{.fragment .semi-fade-out fragment-index=5}
     [... apart from *trust* relations]{.fragment .fade-in-then-semi-out .remark-nope fragment-index=4}
 :::::
+
 ::::: {.fragment .fade-in fragment-index=2}
 - ***Privacy***
   - [Presentation without issuer]{}
@@ -181,6 +178,7 @@ Participation in the EU Digital Identity space dependent on [**economical** and 
   - [Verification without issuer]{.fragment .semi-fade-out fragment-index=6}
     [... impossible for PKI-based proofs]{.fragment .fade-in-then-semi-out .remark-nope fragment-index=5}
 :::::
+
 ::::: {.fragment .fade-in fragment-index=3}
 - ***Control***
   - [Informed consent]{}
@@ -193,14 +191,12 @@ Participation in the EU Digital Identity space dependent on [**economical** and 
 
 ## A self-sovereignty based on mutual trust
 
-**The standard we have**:
-<br/>
+**The standard we have**: <br/>
 A 'local cache' to manage [**consent**]{.red} for the [access]{.green} to [(signed) personal info]{.blue} by [approved parties]{.orange}.
 
 . . .
 
-**The standard we need**:
-<br/>
+**The standard we need**: <br/>
 A 'remote key' to manage [**delegated control**]{.red .underline} *for [any interaction]{.green} with [any (authentic) service]{.blue} by [any party]{.orange}*.
 
 . . .
@@ -213,42 +209,6 @@ A 'remote key' to manage [**delegated control**]{.red .underline} *for [any inte
 
 - **demonstrates trust** of the *delegator* in the *delegate*;
 - **builds trust** of the *delegate* in the *delegator*.
-
-<!--
-## Use cases for delegated control
-
-::: {.list-table}
-- - ...
-  - Interaction
-  - Service
-  - Party
-- []{.fragment}
-  - I know the password.
-  - presented password
-  - stored password
-  - database
-- []{.fragment}
-  - Pieter is a member of the club.
-  - membership card (serial, hologram)
-  - serial list
-  - tamperproof card
-- []{.fragment}
-  - These bank statements are legit.
-  - bank's (digital) signature
-  - bank's public key
-  - bank, key infrastructure
-- []{.fragment}
-  - De Krook's energy score is `C+`.
-  - TLS certificate of cadaster
-  - certificate chain
-  - cadaster, browser, CA
-- []{.fragment}
-  - My name is Wouter.
-  - me telling you so
-  - me telling you so
-  - me
-:::
--->
 
 ## Too complicated? A practical approach ...
 
@@ -272,20 +232,23 @@ A 'remote key' to manage [**delegated control**]{.red .underline} *for [any inte
    - Policy enforcement [(e.g., OAuth 2.1; Privacy Processing Receipts)]{.ex}
    - Policy management [(e.g., User-Managed Access, Grant Negotiation & Authorization Protocol, Authorization for Data Spaces)]{.ex}
 
+. . .
+
 4. **Delegation**
    - Federation
    - Attenuation [(e.g., Biscuits)]{.ex}
 
----
+# \ {}
 
-:::{style="text-align:center;max-width:80%;margin:auto;"}
+:::{style="text-align:center;max-width:60%;margin: auto;margin-top:-1em;"}
 [Thanks!]{.r-fit-text style="color:rgb(96, 79, 220);"}
 
-[Q&A at the end]{style="color:red;font-size:3em;"}
+[Q&A at the end]{style="color:red;font-size:2.5em;"}
 
 <br/>
 <br/>
 
 [Research funded by **SolidLab Vlaanderen** & **SecuWeb**]{style="font-size:.75em;"}
-<!-- (Flemish Gov., EWI & RRF project VV023/10) -->
 :::
+
+---

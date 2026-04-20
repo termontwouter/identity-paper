@@ -44,9 +44,6 @@ $solid-purple: #7c4dff;
     max-width: 7.5vw;
     max-height: 8.4rem;
   }
-  .header-text {
-    grid-area: sc;
-  }
   .slides {
     table, table tr:last-child td {
       border-bottom: none;
