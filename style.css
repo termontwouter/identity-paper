@@ -30,6 +30,7 @@ $solid-purple: #7c4dff;
 .ex {
   font-size: .75em;
   font-style: italic;
+  color: rgb(142, 142, 142);
 }
 .dark-green { color: $knows-dark-green; }
 .dark-blue { color: $secuweb-dark-blue; }

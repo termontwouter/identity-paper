@@ -214,29 +214,29 @@ A 'remote key' to manage [**delegated control**]{.red .underline} *for [any inte
 
 . . .
 
-1. **Description**
-   - Technical APIs [(e.g., OpenAPI)]{.ex}
-   - Legal/industrial DSLs [(e.g., Data Privacy Vocabulary)]{.ex}
+1. **Description** ✅
+   - Technical APIs \ [(OpenAPI)]{.ex}
+   - Legal/industrial DSLs \ [(Data Privacy Vocabulary)]{.ex}
 
 . . .
 
-2. **Authentication**
-   - Signatures, PKI, ledgers [(e.g., EBSI)]{.ex}
-   - Certificates, credentials [(e.g., VC)]{.ex}
-   - Federations [(e.g., OpenID Federation, informative Trusted Lists)]{.ex}
+2. **Authentication** ✅
+   - Signatures, PKI, ledgers \ [(EBSI)]{.ex}
+   - Certificates, credentials \ [(VC)]{.ex}
+   - Federations \ [(OpenID Federation, informative Trusted Lists)]{.ex}
 
 . . .
 
-3. **Control**
-   - Policy evaluation [(e.g., Open Digital Rights Language, Wallet Access Control Engine)]{.ex}
-   - Policy enforcement [(e.g., OAuth 2.1; Privacy Processing Receipts)]{.ex}
-   - Policy management [(e.g., User-Managed Access, Grant Negotiation & Authorization Protocol, Authorization for Data Spaces)]{.ex}
+3. **Control** 💡
+   - Policy evaluation \ [(Open Digital Rights Language, Wallet Access Control Engine)]{.ex}
+   - Policy enforcement \ [(OAuth 2.1; Privacy Processing Receipts)]{.ex}
+   - Policy management \ [(User-Managed Access, Grant Negotiation & Authorization Protocol, Authorization for Data Spaces)]{.ex}
 
 . . .
 
-4. **Delegation**
-   - Federation
-   - Attenuation [(e.g., Biscuits)]{.ex}
+4. **Delegation** 💡
+   - Federation \ [(Authorization for Data Spaces)]{.ex}
+   - Attenuation \ [(Biscuits)]{.ex}
 
 # \ {}
 
